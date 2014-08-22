@@ -1,0 +1,2456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+  
+
+<title type="text">YangYa's Blog</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://hmfaysal.github.io/feed.xml" />
+<link rel="alternate" type="text/html" href="http://hmfaysal.github.io/" />
+<updated>2014-08-22T03:35:58+00:00</updated>
+<id>http://hmfaysal.github.io/</id>
+<author>
+  <name>Hossain Mohd Faysal</name>
+  <uri>http://hmfaysal.github.io/</uri>
+  <email>hmfaysal@alum.mit.edu</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Death Stick]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/death-stick"/>
+  <id>http://hmfaysal.github.io/personal/death-stick</id>
+  
+  <published>2014-08-14T00:00:00+00:00</published>
+  <updated>2014-08-14T11:43:25+00:00</updated>
+  
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;style&gt;
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono|Roboto+Slab:700);
+#container {
+	margin-top: -60px;
+	margin-bottom: 50px;
+	text-align: center
+}
+#lighter {
+  position: relative;
+  display: inline-block;
+  z-index: 50;
+  margin-right: 50px;
+  height: 174px;
+  width: 52px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#lighter #top {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: absolute;
+  z-index: 100;
+  width: 50px;
+  height: 29px;
+}
+#lighter #top #topback {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: transparent;
+  position: absolute;
+  left: -2px;
+  z-index: 10;
+  width: 31px;
+  height: 29px;
+  border: 2px solid #6b5339;
+  border-left: 0;
+  border-bottom: 0;
+  border-right: 0;
+  border-top-right-radius: 6px 6px;
+  border-top-left-radius: 12px 20px;
+  -webkit-box-shadow: 0 4px 0 0 #d4985a inset;
+  box-shadow: 0 4px 0 0 #d4985a inset;
+}
+#lighter #top #topback:after {
+  content: &#39;&#39;;
+  display: block;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #6b5339;
+  height: 10px;
+  width: 42px;
+  left: 10px;
+  top: 2px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: #d4985a;
+  -webkit-box-shadow: 3px 2px 0px 1px #eebe7e inset, 0px -2px 0px 0px #9f6529 inset;
+  box-shadow: 3px 2px 0px 1px #eebe7e inset, 0px -2px 0px 0px #9f6529 inset;
+}
+#lighter #top #topback:before {
+  content: &#39;&#39;;
+  display: block;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: -18;
+  background-color: #d4985a;
+  width: 39px;
+  height: 16px;
+  border-bottom: 1px solid #6b5339;
+  border-right: 2px solid #6b5339;
+  left: 10px;
+  top: 10px;
+}
+#lighter #top #topback #strikebutton {
+  display: block;
+  position: absolute;
+  z-index: -18;
+  background-color: transparent;
+  width: 36px;
+  height: 14px;
+  left: 10px;
+  top: 11px;
+  overflow: hidden;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAAZiS0dEAAUAAgAi50ehhQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94IDQAcDb48ZQMAAAAdaVRYdENvbW1lbnQAAAAAAENyZWF0ZWQgd2l0aCBHSU1QZC5lBwAAAE9JREFUCB0BRAC7/wHZ2dkAAAAAAAAAAAMmJib9AgAAAAAAAABCAAAAbAAAAAAEAAAAAAAAADQAAAAgAAAAAAH///8AAAAAAAAAAAAAAAAARekIBd7L9tAAAAAASUVORK5CYII=) repeat;
+}
+#lighter #top #topleft {
+  z-index: 120;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  background-color: #d4985a;
+  margin-left: -2px;
+  border-top-left-radius: 6px 6px;
+  border-top-right-radius: 4px ;
+  border-bottom-right-radius: 6px 6px;
+  border: 2px solid #6b5339;
+  border-top: 1px solid #6b5339;
+  width: 29px;
+  height: 28px;
+  -webkit-box-shadow: 3px 2px 3px 1px #eebe7e inset, 2px 0px 0 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 2px 3px 1px #eebe7e inset, 2px 0px 0 0 rgba(0, 0, 0, 0.3);
+}
+#lighter #body {
+  position: absolute;
+  top: 29px;
+  margin-top: -2px;
+  z-index: 90;
+  height: 146px;
+  width: 95%;
+  border: 2px solid #6b5339;
+  border-top: 1px solid #6b5339;
+  border-top-left-radius: 12% 2%;
+  border-top-right-radius: 12% 2%;
+  border-bottom-right-radius: 12% 2%;
+  border-bottom-left-radius: 12% 2%;
+  background-color: #efe3b1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: -4px 0 0 0 rgba(119, 75, 34, 0.2) inset, 4px 0 0 0 #f6efd3 inset;
+  box-shadow: -4px 0 0 0 rgba(119, 75, 34, 0.2) inset, 4px 0 0 0 #f6efd3 inset;
+}
+#lighter #body:before {
+  content: &#39;&#39;;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: -1000;
+  width: 6px;
+  height: 6px;
+  position: relative;
+  top: -3px;
+  left: -5px;
+  border-left: 2px solid #6b5339;
+  border-top: 2px solid #6b5339;
+  border-bottom: 2px solid #6b5339;
+  background-color: black;
+}
+#deathstick {
+  margin: auto;
+  margin-top: 30px;
+  margin-right: 40px;
+  height: 166px;
+  width: 16.6px;
+  border: 2px solid #6b5339;
+  border-radius: 2px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: -5px 0 2px 0 rgba(119, 75, 34, 0.2) inset;
+  box-shadow: -5px 0 2px 0 rgba(119, 75, 34, 0.2) inset;
+  background-color: transparent;
+  position: relative;
+}
+#deathstick #stick {
+  background-color: #ffffff;
+  width: 100%;
+  height: 116.2px;
+  z-index: -12;
+  position: absolute;
+}
+#deathstick #filter {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #e3a53f;
+  height: 49.8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -12;
+  -webkit-box-shadow: 5px 0 0 0 #e9ba6c inset;
+  box-shadow: 5px 0 0 0 #e9ba6c inset;
+}
+#deathstick #filter:before {
+  content: &#39;&#39;;
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  top: 0;
+  left: 0;
+  background-color: #edc482;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #6b5339;
+  border-bottom: 2px solid #6b5339;
+}
+#deathstick #filter #filterpattern {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAqCAYAAACHgLrMAAAAAXNSR0IArs4c6QAAAAZiS0dEAAUAAgAi50ehhQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94IDQkpB/MJdSQAAAAdaVRYdENvbW1lbnQAAAAAAENyZWF0ZWQgd2l0aCBHSU1QZC5lBwAACBVJREFUSA0BCgj19wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9vAAAAAAAAAAAAAAAAAP///2////9vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAP///28AAAA/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAQEBUgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///2////9vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///2////9vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////bwAAAAAAAAAAAQEBkQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9v////bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP///28AAAAABAAAAAAAAAAA////rgEBAVIAAAAAAAAAAAAAAAAAAAAA////bwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD///9vAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGMLUH+aSZb3AAAAAElFTkSuQmCC) repeat;
+}
+#pack {
+  position: relative;
+  border: 2px solid #6b5339;
+  display: inline-block;
+  height: 179px;
+  width: 142px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: -3px -3px 4px 0px #f5d5a6 inset, 3px 3px 4px 0px #ffffff inset;
+  box-shadow: -3px -3px 4px 0px #f5d5a6 inset, 3px 3px 4px 0px #ffffff inset;
+  background-color: #fef9e5;
+  -webkit-background-size: 100px 100px;
+  background-size: 100px 100px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs4c6QAAAAZiS0dEAAUAAgAi50ehhQAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB94IDQkXNA0cD08AAAAdaVRYdENvbW1lbnQAAAAAAENyZWF0ZWQgd2l0aCBHSU1QZC5lBwAAADJJREFUCB0BJwDY/wAAAAAAAAAAAPbhwv8CAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAGbjA519LaOPAAAAAElFTkSuQmCC) repeat;
+}
+#pack:before {
+  z-index: 99;
+  content: &#39;&#39;;
+  display: block;
+  position: absolute;
+  width: 141px;
+  height: 60px;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #6b5339;
+  border-radius: 5px;
+  top: -1px;
+  left: -1px;
+  -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.3);
+}
+#pack #origredbranding {
+  position: absolute;
+  display: block;
+  top: 9px;
+  left: 6px;
+  background-color: #fffde8;
+  padding: 1px;
+  font-size: 0.36em;
+  font-family: &quot;Arial&quot;, &quot;Sans-serif&quot;;
+  color: #ec371c;
+}
+#pack #esttab {
+  position: absolute;
+  display: inline-block;
+  right: 13px;
+  width: 32px;
+  height: 21px;
+  padding-top: 3px;
+  background-color: #ec371c;
+  border: 1px solid #efce27;
+  border-top: 0;
+  -webkit-box-shadow: 0 1px 0 0 #f88254 inset;
+  box-shadow: 0 1px 0 0 #f88254 inset;
+}
+#pack #esttab #est {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  width: 23px;
+  font-size: 0.5em;
+  line-height: 0.3em;
+  font-family: &quot;Arial&quot;, &quot;Sans-serif&quot;;
+  color: #efce27;
+}
+#pack #esttab #estdate {
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-left: 4.21px;
+  width: 23px;
+  font-size: 0.55em;
+  font-family: &quot;Arial&quot;, &quot;Sans-serif&quot;;
+  color: white;
+}
+#pack #warning {
+  display: inline-block;
+  position: absolute;
+  width: 130px;
+  height: 47px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 5px solid #842706;
+  padding: auto;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #fffee9;
+  -webkit-box-shadow: 0 0 2px 2px #fffee9;
+  box-shadow: 0 0 2px 2px #fffee9;
+  margin: auto;
+  bottom: 7px;
+  left: 4px;
+  color: #842706;
+  font-weight: 700;
+  font-size: 0.84em;
+  text-align: center;
+}
+#pack #seal {
+  text-align: center;
+  /**************************/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-left: -41px;
+  top: 32px;
+  width: 82px;
+  height: 82px;
+  background-color: #ec371c;
+  border-radius: 50%;
+  background: #ec371c;
+  /* Old browsers */
+  /* FF3.6+ */
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ec371c), color-stop(0%, #ec371c), color-stop(65%, #ec371c), color-stop(68%, #efce27), color-stop(70%, #ec371c));
+  /* Chrome,Safari4+ */
+  background: -webkit-radial-gradient(center, ellipse cover, #ec371c 0%, #ec371c 0%, #ec371c 65%, #efce27 68%, #ec371c 70%);
+  /* Chrome10+,Safari5.1+ */
+  /* Opera 12+ */
+  /* IE10+ */
+  background: -webkit-radial-gradient(center, ellipse, #ec371c 0%, #ec371c 0%, #ec371c 65%, #efce27 68%, #ec371c 70%);
+  background: radial-gradient(ellipse at center, #ec371c 0%, #ec371c 0%, #ec371c 65%, #efce27 68%, #ec371c 70%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#ec371c&#39;, endColorstr=&#39;#ec371c&#39;, GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+#pack #seal #sealinnertext {
+  /*background-color: rgba(0,0,0,0.3);*/
+  position: absolute;
+  display: block;
+  width: 82px;
+  font-family: &#39;Roboto Slab&#39;, serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  text-justify: distribute;
+  width: 62px;
+  top: 29px;
+  left: 50%;
+  font-size: 0.86em;
+  margin-left: -31px;
+  line-height: 0.9em;
+}
+#pack #seal .sealoutertext {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  font-family: &#39;Ubuntu Mono&#39;, &quot;Arial&quot;, &quot;Sans-Serif&quot;;
+  font-size: 0.4em;
+  color: #efce27;
+}
+#pack #seal .sealoutertext#top {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 82px;
+  top: 3px;
+  left: -2px;
+}
+#pack #seal .sealoutertext#top span {
+  font-size: 6px;
+  height: 36px;
+  position: absolute;
+  vertical-align: top;
+  -webkit-transform-origin: bottom center;
+  -ms-transform-origin: bottom center;
+  transform-origin: bottom center;
+}
+#pack #seal .sealoutertext#top .char30 {
+  -webkit-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+#pack #seal .sealoutertext#top .char29 {
+  -webkit-transform: rotate(101deg);
+  -ms-transform: rotate(101deg);
+  transform: rotate(101deg);
+}
+#pack #seal .sealoutertext#top .char28 {
+  -webkit-transform: rotate(94deg);
+  -ms-transform: rotate(94deg);
+  transform: rotate(94deg);
+}
+#pack #seal .sealoutertext#top .char27 {
+  -webkit-transform: rotate(87deg);
+  -ms-transform: rotate(87deg);
+  transform: rotate(87deg);
+}
+#pack #seal .sealoutertext#top .char26 {
+  -webkit-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+}
+#pack #seal .sealoutertext#top .char25 {
+  -webkit-transform: rotate(73deg);
+  -ms-transform: rotate(73deg);
+  transform: rotate(73deg);
+}
+#pack #seal .sealoutertext#top .char24 {
+  -webkit-transform: rotate(66deg);
+  -ms-transform: rotate(66deg);
+  transform: rotate(66deg);
+}
+#pack #seal .sealoutertext#top .char23 {
+  -webkit-transform: rotate(59deg);
+  -ms-transform: rotate(59deg);
+  transform: rotate(59deg);
+}
+#pack #seal .sealoutertext#top .char22 {
+  -webkit-transform: rotate(52deg);
+  -ms-transform: rotate(52deg);
+  transform: rotate(52deg);
+}
+#pack #seal .sealoutertext#top .char21 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#pack #seal .sealoutertext#top .char20 {
+  -webkit-transform: rotate(38deg);
+  -ms-transform: rotate(38deg);
+  transform: rotate(38deg);
+}
+#pack #seal .sealoutertext#top .char19 {
+  -webkit-transform: rotate(31deg);
+  -ms-transform: rotate(31deg);
+  transform: rotate(31deg);
+}
+#pack #seal .sealoutertext#top .char18 {
+  -webkit-transform: rotate(24deg);
+  -ms-transform: rotate(24deg);
+  transform: rotate(24deg);
+}
+#pack #seal .sealoutertext#top .char17 {
+  -webkit-transform: rotate(17deg);
+  -ms-transform: rotate(17deg);
+  transform: rotate(17deg);
+}
+#pack #seal .sealoutertext#top .char16 {
+  -webkit-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+#pack #seal .sealoutertext#top .char15 {
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+#pack #seal .sealoutertext#top .char14 {
+  -webkit-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+#pack #seal .sealoutertext#top .char13 {
+  -webkit-transform: rotate(-11deg);
+  -ms-transform: rotate(-11deg);
+  transform: rotate(-11deg);
+}
+#pack #seal .sealoutertext#top .char12 {
+  -webkit-transform: rotate(-18deg);
+  -ms-transform: rotate(-18deg);
+  transform: rotate(-18deg);
+}
+#pack #seal .sealoutertext#top .char11 {
+  -webkit-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+}
+#pack #seal .sealoutertext#top .char10 {
+  -webkit-transform: rotate(-32deg);
+  -ms-transform: rotate(-32deg);
+  transform: rotate(-32deg);
+}
+#pack #seal .sealoutertext#top .char9 {
+  -webkit-transform: rotate(-39deg);
+  -ms-transform: rotate(-39deg);
+  transform: rotate(-39deg);
+}
+#pack #seal .sealoutertext#top .char8 {
+  -webkit-transform: rotate(-46deg);
+  -ms-transform: rotate(-46deg);
+  transform: rotate(-46deg);
+}
+#pack #seal .sealoutertext#top .char7 {
+  -webkit-transform: rotate(-53deg);
+  -ms-transform: rotate(-53deg);
+  transform: rotate(-53deg);
+}
+#pack #seal .sealoutertext#top .char6 {
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+#pack #seal .sealoutertext#top .char5 {
+  -webkit-transform: rotate(-67deg);
+  -ms-transform: rotate(-67deg);
+  transform: rotate(-67deg);
+}
+#pack #seal .sealoutertext#top .char4 {
+  -webkit-transform: rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+  transform: rotate(-74deg);
+}
+#pack #seal .sealoutertext#top .char3 {
+  -webkit-transform: rotate(-81deg);
+  -ms-transform: rotate(-81deg);
+  transform: rotate(-81deg);
+}
+#pack #seal .sealoutertext#top .char2 {
+  -webkit-transform: rotate(-88deg);
+  -ms-transform: rotate(-88deg);
+  transform: rotate(-88deg);
+}
+#pack #seal .sealoutertext#top .char1 {
+  -webkit-transform: rotate(-95deg);
+  -ms-transform: rotate(-95deg);
+  transform: rotate(-95deg);
+}
+#pack #seal .sealoutertext#bottom {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 82px;
+  bottom: 3px;
+  right: -2px;
+  vertical-align: bottom;
+}
+#pack #seal .sealoutertext#bottom span {
+  font-size: 6px;
+  display: inline;
+  vertical-align: bottom;
+  height: 36px;
+  position: absolute;
+  line-height: 66px;
+  margin-top: -38px;
+  margin-left: -3px;
+  -webkit-transform-origin: top center;
+  -ms-transform-origin: top center;
+  transform-origin: top center;
+}
+#pack #seal .sealoutertext#bottom .char19 {
+  -webkit-transform: rotate(-97deg);
+  -ms-transform: rotate(-97deg);
+  transform: rotate(-97deg);
+}
+#pack #seal .sealoutertext#bottom .char18 {
+  -webkit-transform: rotate(-88deg);
+  -ms-transform: rotate(-88deg);
+  transform: rotate(-88deg);
+}
+#pack #seal .sealoutertext#bottom .char17 {
+  -webkit-transform: rotate(-79deg);
+  -ms-transform: rotate(-79deg);
+  transform: rotate(-79deg);
+}
+#pack #seal .sealoutertext#bottom .char16 {
+  -webkit-transform: rotate(-70deg);
+  -ms-transform: rotate(-70deg);
+  transform: rotate(-70deg);
+}
+#pack #seal .sealoutertext#bottom .char15 {
+  -webkit-transform: rotate(-61deg);
+  -ms-transform: rotate(-61deg);
+  transform: rotate(-61deg);
+}
+#pack #seal .sealoutertext#bottom .char14 {
+  -webkit-transform: rotate(-52deg);
+  -ms-transform: rotate(-52deg);
+  transform: rotate(-52deg);
+}
+#pack #seal .sealoutertext#bottom .char13 {
+  -webkit-transform: rotate(-43deg);
+  -ms-transform: rotate(-43deg);
+  transform: rotate(-43deg);
+}
+#pack #seal .sealoutertext#bottom .char12 {
+  -webkit-transform: rotate(-34deg);
+  -ms-transform: rotate(-34deg);
+  transform: rotate(-34deg);
+}
+#pack #seal .sealoutertext#bottom .char11 {
+  -webkit-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  transform: rotate(-25deg);
+}
+#pack #seal .sealoutertext#bottom .char10 {
+  -webkit-transform: rotate(-16deg);
+  -ms-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+}
+#pack #seal .sealoutertext#bottom .char9 {
+  -webkit-transform: rotate(-7deg);
+  -ms-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+#pack #seal .sealoutertext#bottom .char8 {
+  -webkit-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+#pack #seal .sealoutertext#bottom .char7 {
+  -webkit-transform: rotate(11deg);
+  -ms-transform: rotate(11deg);
+  transform: rotate(11deg);
+}
+#pack #seal .sealoutertext#bottom .char6 {
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+#pack #seal .sealoutertext#bottom .char5 {
+  -webkit-transform: rotate(29deg);
+  -ms-transform: rotate(29deg);
+  transform: rotate(29deg);
+}
+#pack #seal .sealoutertext#bottom .char4 {
+  -webkit-transform: rotate(38deg);
+  -ms-transform: rotate(38deg);
+  transform: rotate(38deg);
+}
+#pack #seal .sealoutertext#bottom .char3 {
+  -webkit-transform: rotate(47deg);
+  -ms-transform: rotate(47deg);
+  transform: rotate(47deg);
+}
+#pack #seal .sealoutertext#bottom .char2 {
+  -webkit-transform: rotate(56deg);
+  -ms-transform: rotate(56deg);
+  transform: rotate(56deg);
+}
+#pack #seal .sealoutertext#bottom .char1 {
+  -webkit-transform: rotate(65deg);
+  -ms-transform: rotate(65deg);
+  transform: rotate(65deg);
+}
+&lt;/style&gt;
+
+&lt;div id=&quot;container&quot;&gt;
+  &lt;div id=&quot;lighter&quot;&gt;
+    &lt;div id=&quot;top&quot;&gt;
+      &lt;div id=&quot;topback&quot;&gt;
+        &lt;div id=&quot;strikebutton&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div id=&quot;topleft&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;body&quot;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;deathstick&quot;&gt;
+    &lt;div id=&quot;stick&quot;&gt;&lt;/div&gt;
+    &lt;div id=&quot;filter&quot;&gt;
+      &lt;div id=&quot;filterpattern&quot;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;pack&quot;&gt;
+    &lt;div id=&quot;origredbranding&quot;&gt;ORIGINAL RED&lt;/div&gt;
+    &lt;div id=&quot;esttab&quot;&gt;
+      &lt;div id=&quot;est&quot;&gt;E S T&lt;/div&gt;
+      &lt;div id=&quot;estdate&quot;&gt;2012&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;seal&quot;&gt;
+      &lt;div class=&quot;sealoutertext&quot; id=&quot;top&quot;&gt;HM FAYSAL TOBACCO COMPANY&lt;/div&gt;
+      &lt;div id=&quot;sealinnertext&quot;&gt;HM&lt;br /&gt;FAYSAL&lt;/div&gt;
+      &lt;div class=&quot;sealoutertext&quot; id=&quot;bottom&quot;&gt;Est BOSTON MA USA&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;warning&quot;&gt;Smoking is good&lt;br /&gt;for your brain.&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script src=&quot;http://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+$(&quot;.sealoutertext#top&quot;).lettering();
+$(&quot;.sealoutertext#bottom&quot;).lettering();
+//@ sourceURL=pen.js
+&lt;/script&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/death-stick&quot;&gt;Death Stick&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on August 14, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Fitness Tracker]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/fitness-tracker"/>
+  <id>http://hmfaysal.github.io/personal/fitness-tracker</id>
+  
+  <published>2014-08-11T00:00:00+00:00</published>
+  <updated>2014-08-20T11:31:00+00:00</updated>
+  
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#gym" term="gym" /><category scheme="http://hmfaysal.github.io/tags/#fitness" term="fitness" />
+  <content type="html">
+  
+    &lt;p&gt;Weakness, fatigue, nausea overpowered me in the last couple of months. I have lost &lt;strong&gt;&lt;em&gt;33lbs&lt;/em&gt;&lt;/strong&gt; since April, 2013. I use to weigh &lt;strong&gt;&lt;em&gt;165lbs&lt;/em&gt;&lt;/strong&gt;, currently I weigh &lt;strong&gt;&lt;em&gt;132lbs&lt;/em&gt;&lt;/strong&gt;. I was not particularly healthy to begin with. I went to numerous doctors, went through various physiological tests, I am perfectly fine health-wise. So somebody pointed out that my muscle atrophy and weight loss can be attributed to my sedentary nature of my work. I am a PhD candidate at UPenn, and my work schedule requires me to sit at my workstation for 8 hours on an average day. To make up for that, I knew I had to workout a little, but never got around doing it.&lt;/p&gt;
+
+&lt;p&gt;I have a certain apathy towards gym. I am not one of the athletic types. Whenever it comes to sports or physically challenging workouts, I fail, and those failures accumulated over time resulting in the current state of my body.&lt;/p&gt;
+
+&lt;p&gt;Anyways, I got myself registered as a member at my local gym. It has a good set of tools and workout machines which I do not hope to use, but reckon my trainer will force me to use those sometime in the near future. As long as I can get some added stamina for my day-to-day life, I will be more than happy. And in the process, I hope to regain some of my lost weight. I have heard, working out releases Oxycontin in the brain, well if that happens for me in the coming days, it will be a welcoming change.&lt;/p&gt;
+
+&lt;p&gt;I have never worked out much as a young adult. Now that I have started, it will be a good idea to keep track of my workout. I log everything I do in the gym in a Microsoft Excel Worksheet- from individual exercise time to the weight of the dumbbells I am currently using, though not all the data are useful, a few data visualization tricks give me the ability to better understand my performance, point out my weaknesses and drive me towards particular exercises that will help me perform better in my weak areas.&lt;/p&gt;
+
+&lt;p&gt;This graph is generated using a &lt;a href=&quot;http://www.amcharts.com/&quot;&gt;amCharts.JS&lt;/a&gt; and is updated regularly.&lt;/p&gt;
+
+&lt;div id=&quot;chartdiv&quot; style=&quot;width: 100%; height: 1200px; background-color: #FFFFFF;&quot;&gt;&lt;/div&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.amcharts.com/lib/3/exporting/amexport.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.amcharts.com/lib/3/exporting/canvg.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.amcharts.com/lib/3/exporting/rgbcolor.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://cdn.amcharts.com/lib/3/exporting/filesaver.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- amCharts javascript code --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+	AmCharts.makeChart(&quot;chartdiv&quot;,
+		{
+			&quot;type&quot;: &quot;serial&quot;,
+			&quot;pathToImages&quot;: &quot;http://cdn.amcharts.com/lib/3/images/&quot;,
+			&quot;categoryField&quot;: &quot;Exercises&quot;,
+			&quot;columnWidth&quot;: 1,
+			&quot;rotate&quot;: true,
+			&quot;colors&quot;: [
+				&quot;#FF6600&quot;,
+				&quot;#FCD202&quot;,
+				&quot;#B0DE09&quot;,
+				&quot;#0D8ECF&quot;,
+				&quot;#2A0CD0&quot;,
+				&quot;#CD0D74&quot;,
+				&quot;#CC0000&quot;,
+				&quot;#00CC00&quot;,
+				&quot;#0000CC&quot;,
+				&quot;#F8CA00&quot;,
+				&quot;#999999&quot;,
+				&quot;#333333&quot;,
+				&quot;#990000&quot;
+			],
+			&quot;sequencedAnimation&quot;: false,
+			&quot;startDuration&quot;: 1,
+			&quot;startEffect&quot;: &quot;easeOutSine&quot;,
+			&quot;theme&quot;: &quot;default&quot;,
+			&quot;categoryAxis&quot;: {
+				&quot;gridPosition&quot;: &quot;start&quot;,
+				&quot;title&quot;: &quot;Excercises&quot;
+			},
+			&quot;chartCursor&quot;: {
+				&quot;cursorPosition&quot;: &quot;mouse&quot;,
+				&quot;valueBalloonsEnabled&quot;: false
+			},
+			&quot;trendLines&quot;: [],
+			&quot;graphs&quot;: [
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/11/2014&quot;,
+					&quot;title&quot;: &quot;8/11/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/11/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/12/2014&quot;,
+					&quot;title&quot;: &quot;8/12/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/12/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/13/2014&quot;,
+					&quot;title&quot;: &quot;8/13/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/13/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/14/2014&quot;,
+					&quot;title&quot;: &quot;8/14/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/14/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/15/2014&quot;,
+					&quot;title&quot;: &quot;8/15/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/15/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/16/2014&quot;,
+					&quot;title&quot;: &quot;8/16/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/16/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/17/2014&quot;,
+					&quot;title&quot;: &quot;8/17/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/17/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/18/2014&quot;,
+					&quot;title&quot;: &quot;8/18/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/18/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;id&quot;: &quot;8/19/2014&quot;,
+					&quot;title&quot;: &quot;8/19/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/19/2014&quot;
+				},
+				{
+					&quot;balloonText&quot;: &quot;[[category]]: [[value]] times on [[title]]&quot;,
+					&quot;fillAlphas&quot;: 1,
+					&quot;fillColors&quot;: &quot;&quot;,
+					&quot;id&quot;: &quot;8/20/2014&quot;,
+					&quot;title&quot;: &quot;8/20/2014&quot;,
+					&quot;type&quot;: &quot;column&quot;,
+					&quot;valueField&quot;: &quot;8/20/2014&quot;
+				}
+			],
+			&quot;guides&quot;: [],
+			&quot;valueAxes&quot;: [
+				{
+					&quot;id&quot;: &quot;ValueAxis-1&quot;,
+					&quot;title&quot;: &quot;Number of times&quot;
+				}
+			],
+			&quot;allLabels&quot;: [],
+			&quot;amExport&quot;: {},
+			&quot;balloon&quot;: {},
+			&quot;legend&quot;: {
+				&quot;useGraphSettings&quot;: true
+			},
+			&quot;titles&quot;: [
+				{
+					&quot;id&quot;: &quot;Title-1&quot;,
+					&quot;size&quot;: 15,
+					&quot;text&quot;: &quot;Fitness Tracker&quot;
+				}
+			],
+			&quot;dataProvider&quot;: [
+				{
+					&quot;8/11/2014&quot;: &quot;10&quot;,
+					&quot;8/12/2014&quot;: &quot;10&quot;,
+					&quot;8/13/2014&quot;: &quot;5&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;5&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;5&quot;,
+					&quot;Exercises&quot;: &quot;Warm Up(minutes)&quot;,
+					&quot;8/18/2014&quot;: &quot;10&quot;,
+					&quot;8/19/2014&quot;: &quot;10&quot;,
+					&quot;8/20/2014&quot;: &quot;10&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;30&quot;,
+					&quot;8/12/2014&quot;: &quot;30&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;30&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;30&quot;,
+					&quot;Exercises&quot;: &quot;Side Bend&quot;,
+					&quot;8/18/2014&quot;: &quot;30&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;30&quot;,
+					&quot;8/12/2014&quot;: &quot;25&quot;,
+					&quot;8/13/2014&quot;: &quot;20&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;10&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;5&quot;,
+					&quot;Exercises&quot;: &quot;Ab Crunch&quot;,
+					&quot;8/18/2014&quot;: &quot;0&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;25&quot;,
+					&quot;8/12/2014&quot;: &quot;0&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;15&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;5&quot;,
+					&quot;Exercises&quot;: &quot;Push up&quot;,
+					&quot;8/18/2014&quot;: &quot;0&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;24&quot;,
+					&quot;8/12/2014&quot;: &quot;0&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;0&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;3&quot;,
+					&quot;Exercises&quot;: &quot;Bench Press&quot;,
+					&quot;8/18/2014&quot;: &quot;10&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;10&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;20&quot;,
+					&quot;8/12/2014&quot;: &quot;20&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;40&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;20&quot;,
+					&quot;Exercises&quot;: &quot;Stretching&quot;,
+					&quot;8/18/2014&quot;: &quot;30&quot;,
+					&quot;8/19/2014&quot;: &quot;20&quot;,
+					&quot;8/20/2014&quot;: &quot;20&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;20&quot;,
+					&quot;8/12/2014&quot;: &quot;0&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;9&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;2&quot;,
+					&quot;Exercises&quot;: &quot;Tri-stand&quot;,
+					&quot;8/18/2014&quot;: &quot;0&quot;,
+					&quot;8/19/2014&quot;: &quot;0&quot;,
+					&quot;8/20/2014&quot;: &quot;0&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;30&quot;,
+					&quot;8/12/2014&quot;: &quot;40&quot;,
+					&quot;8/13/2014&quot;: &quot;60&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;40&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;30&quot;,
+					&quot;Exercises&quot;: &quot;Press Down&quot;,
+					&quot;8/18/2014&quot;: &quot;50&quot;,
+					&quot;8/19/2014&quot;: &quot;50&quot;,
+					&quot;8/20/2014&quot;: &quot;70&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;20&quot;,
+					&quot;8/12/2014&quot;: &quot;20&quot;,
+					&quot;8/13/2014&quot;: &quot;20&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;20&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;20&quot;,
+					&quot;Exercises&quot;: &quot;Barbell Curl&quot;,
+					&quot;8/18/2014&quot;: &quot;20&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;40&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;30&quot;,
+					&quot;8/12/2014&quot;: &quot;40&quot;,
+					&quot;8/13/2014&quot;: &quot;40&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;30&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;10&quot;,
+					&quot;Exercises&quot;: &quot;Standing Mucle Curl&quot;,
+					&quot;8/18/2014&quot;: &quot;50&quot;,
+					&quot;8/19/2014&quot;: &quot;40&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;20&quot;,
+					&quot;8/12/2014&quot;: &quot;20&quot;,
+					&quot;8/13/2014&quot;: &quot;20&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;40&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;20&quot;,
+					&quot;Exercises&quot;: &quot;Dumbell Curl&quot;,
+					&quot;8/18/2014&quot;: &quot;40&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;20&quot;,
+					&quot;8/12/2014&quot;: &quot;20&quot;,
+					&quot;8/13/2014&quot;: &quot;20&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;20&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;20&quot;,
+					&quot;Exercises&quot;: &quot;Legs Common&quot;,
+					&quot;8/18/2014&quot;: &quot;20&quot;,
+					&quot;8/19/2014&quot;: &quot;20&quot;,
+					&quot;8/20/2014&quot;: &quot;20&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;30&quot;,
+					&quot;8/12/2014&quot;: &quot;30&quot;,
+					&quot;8/13/2014&quot;: &quot;60&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;90&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;30&quot;,
+					&quot;Exercises&quot;: &quot;Leg Press&quot;,
+					&quot;8/18/2014&quot;: &quot;30&quot;,
+					&quot;8/19/2014&quot;: &quot;50&quot;,
+					&quot;8/20/2014&quot;: &quot;60&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;0&quot;,
+					&quot;8/12/2014&quot;: &quot;0&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;0&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;0&quot;,
+					&quot;Exercises&quot;: &quot;Dumbell Press&quot;,
+					&quot;8/18/2014&quot;: &quot;30&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				},
+				{
+					&quot;8/11/2014&quot;: &quot;0&quot;,
+					&quot;8/12/2014&quot;: &quot;0&quot;,
+					&quot;8/13/2014&quot;: &quot;0&quot;,
+					&quot;8/14/2014&quot;: &quot;0&quot;,
+					&quot;8/15/2014&quot;: &quot;0&quot;,
+					&quot;8/16/2014&quot;: &quot;0&quot;,
+					&quot;8/17/2014&quot;: &quot;0&quot;,
+					&quot;Exercises&quot;: &quot;Military Press&quot;,
+					&quot;8/18/2014&quot;: &quot;44&quot;,
+					&quot;8/19/2014&quot;: &quot;30&quot;,
+					&quot;8/20/2014&quot;: &quot;30&quot;
+				}
+			]
+		}
+	);
+&lt;/script&gt;
+
+&lt;style type=&quot;text/css&quot;&gt;
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#aaa;margin:0px auto; margin-bottom: 20px; margin-top: 15px;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;}
+.tg .tg-z2zr{background-color:#FCFBE3}
+&lt;/style&gt;
+
+&lt;table class=&quot;tg row&quot; style=&quot;width:100%&quot;&gt;
+  &lt;tr&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;Exercises&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/11/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/12/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/13/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/14/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/15/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/16/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/17/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/18/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/19/2014&lt;/th&gt;
+    &lt;th class=&quot;tg-031e&quot;&gt;8/20/2014&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Warm Up(minutes)&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Side Bend&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Ab Crunch&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;25&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Push up&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;25&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;15&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;5&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Bench Press&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;24&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;3&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;10&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Stretching&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Tri-stand&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;9&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;2&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Press Down&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;60&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;50&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;50&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;70&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Barbell Curl&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;40&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Standing Mucle Curl&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;10&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;50&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Dumbell Curl&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;40&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Legs Common&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;20&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Leg Press&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;60&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;90&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;50&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;60&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;Dumbell Press&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-031e&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;Military Press&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;0&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;44&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+    &lt;td class=&quot;tg-z2zr&quot;&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;A little bit of analysis of these data provides me with useful information regarding my performance. The first chart is the most important one. The stacked Area Chart shows my combined &lt;strong&gt;Day-to-Day&lt;/strong&gt; performance, which is a useful indicator to check out whether my overall performance is increasing or decreasing. The valleys in the chart represent days I have taken off days. I call this chart important as it provides me with a slope that lets me determine the overall aspects of my performance regardless of the performances in individual exercises. An increasing slope is always a good sign and highly expected. The second chart shows my areas of strength. The third graph chart the overall performance and the relations between different exercises in my exercise regiment. These graphs are generated using a &lt;code&gt;.vb&lt;/code&gt; script.&lt;/p&gt;
+
+&lt;figure class=&quot;half&quot;&gt;
+	&lt;a href=&quot;http://hmfaysal.github.io/images/overview.jpg&quot; title=&quot;Overview&quot;&gt;&lt;img src=&quot;http://hmfaysal.github.io/images/overview.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;http://hmfaysal.github.io/images/strengths.jpg&quot; title=&quot;Performance Overview: Trends&quot;&gt;&lt;img src=&quot;http://hmfaysal.github.io/images/strengths.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+&lt;figure&gt;
+  &lt;a href=&quot;http://hmfaysal.github.io/images/trends.jpg&quot; title=&quot;Strengths&quot;&gt;&lt;img src=&quot;http://hmfaysal.github.io/images/trends.jpg&quot; /&gt;&lt;/a&gt;
+  &lt;figcaption&gt;Performance Overview: Strengths and Trends&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These charts may change their appearances in the coming days depending on my workout plan.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/fitness-tracker&quot;&gt;Fitness Tracker&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on August 11, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Things you most probably do not know]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/interesting/things-you-most-probably-do-not-know"/>
+  <id>http://hmfaysal.github.io/interesting/things-you-most-probably-do-not-know</id>
+  <published>2014-05-20T00:00:00+00:00</published>
+  <updated>2014-05-20T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Digital content can never be moved, only copied.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You can never watch or listen to anything on the internet without having it copied to your computer first.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You cannot password protect a computer from someone who has physical access to it, only encryption works.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When you empty the trashcan, the files are not deleted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When you format your hard drive, the files are not deleted.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Murphy was right.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Your desktop computer can run advanced programs for free that used to be available only to big companies for $100,000. Like Unix, virtual machines and SQL servers.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Cloud simply means someone else’s computer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;That Office documents are actually ZIP files.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/interesting/things-you-most-probably-do-not-know&quot;&gt;Things you most probably do not know&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 20, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[What does a lead engineer do?]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/what-does-a-lead-engineer-do"/>
+  <id>http://hmfaysal.github.io/personal/what-does-a-lead-engineer-do</id>
+  <published>2014-05-18T00:00:00+00:00</published>
+  <updated>2014-05-18T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#Engineering" term="Engineering" />
+  <content type="html">
+  
+    &lt;p&gt;When people ask me what my job entails, I have a hard time synthesizing what I do on a daily basis into a cohesive answer. I’ll use an analogy to help me explain the role: &lt;em&gt;a lead engineer is a lot like being Captain Kirk of the U.S.S. Enterprise&lt;/em&gt;. I know that sounds self-serving, but hear me out. Kirk isn’t the smartest person on his team (e.g. Spock). He’s also not the most experienced. Sulu, Scotty, and Bones are all more specialized in certain domains than he is. It works the same way for the team I lead. I’m not the team’s Backbone.js expert or go-to for complex MySQL queries, but it’s not my job or Captain Kirk’s to be the best at everything. It’s my job to tackle challenges by thoughtfully leading collaborative efforts based on everyone’s strengths.&lt;/p&gt;
+
+&lt;p&gt;I was never a Star Trek fan until J.J. Abrams rebooted their film franchise with Star Trek (2009) and Star Trek Into Darkness (2013). For both movies, one common theme is that Kirk is leading the way on all the dirty work. He doesn’t sit in his comfy Captain chair, he’s always the first person to volunteer for all the hands-on missions. This is analogous to being lead on an engineering team. Learning how to delegate will keep your workload manageable, but getting your hands dirty and leading by example is essential. That means running point on big projects, midnight deploys, spearheading technical debt efforts, following best practices, digging into the nastiest bugs, etc. As a result of this, a majority of my time is spent doing engineering work and not typing emails or sitting in meetings. Leads are pigs, not chickens.&lt;/p&gt;
+
+&lt;p&gt;While most of the leads I know are technically &lt;em&gt;‘managers’&lt;/em&gt;, it’s not in the traditional &lt;em&gt;“We need to talk about your TPS reports”&lt;/em&gt; kind-of-way. Great engineers don’t need to be micro managed. It’s the leads job to tweak the engineering processes and get obstacles out of the way so engineers can work as efficiently as possible. Interns, entry-level, and junior-level engineers do require more attention and it’s your job to make sure they have a healthy balance of guidance and freedom to develop professionally. This will vary depending on the size of the engineering team, but we err on the side of letting less experienced engineers swim in the deep end over having their hands held for every commit.&lt;/p&gt;
+
+&lt;p&gt;Lastly, to touch more on &lt;strong&gt;&lt;em&gt;‘collaborative efforts’&lt;/em&gt;&lt;/strong&gt;, it’s important to remember you’re a captain, not an admiral (CTO or VP Eng.). It’s really easy to be selfish by focusing solely on your team’s projects, goals, deadlines, etc, but it’s your job to coordinate with other captains and be cognizant of their projects and challenges so you’re able to help out when needed. It might be hard to loan the Spock of your team to another starship, but it’s for the greater good of the fleet that every team has the bandwidth and expertise they need to accomplish what’s on their plate. To quote Spock:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h2 id=&quot;the-needs-of-the-many-outweigh-the-needs-of-the-few&quot;&gt;“The needs of the many outweigh the needs of the few.”&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/what-does-a-lead-engineer-do&quot;&gt;What does a lead engineer do?&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[THE DECOY EFFECT]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/interesting/the-decoy-effect"/>
+  <id>http://hmfaysal.github.io/interesting/the-decoy-effect</id>
+  <published>2014-05-18T00:00:00+00:00</published>
+  <updated>2014-05-18T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#psychology" term="psychology" />
+  <content type="html">
+  
+    &lt;p&gt;&lt;em&gt;&lt;strong&gt;The Decoy Effect&lt;/strong&gt;&lt;/em&gt; is a very effective and powerful psychological technique that marketing companies use to take advantage of the loopholes in our brain. The decoy effect is the phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is asymmetrically dominated.&lt;/p&gt;
+
+&lt;p&gt;So, Lets assume there’s a movie theatre selling popcorn.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Small……..$3.00&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Large……..$7.00&lt;/em&gt;  &lt;/p&gt;
+
+&lt;p&gt;Nearly, every person bought the small. When asked why, they said they felt $7 is tad too costly for a popcorn. &lt;/p&gt;
+
+&lt;p&gt;Now after employing decoy effect, a median size “medium” was introduced (its sole purpose being a tool for comparison - that is, a decoy)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Small……..$3.00&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Medium…..$6.50&lt;/em&gt;&lt;br /&gt;
+&lt;em&gt;Large………$7.00&lt;/em&gt;  &lt;/p&gt;
+
+&lt;p&gt;and these were the revised prices.&lt;/p&gt;
+
+&lt;p&gt;Now, everyone bought the large because they felt large is reasonable because it is only 50 cents more than the medium. &lt;/p&gt;
+
+&lt;p&gt;Now, this is how decoy effect works : it’s how marketers take advantage of comparison shoppers. They sell multiple products with features and prices that will steer you to the one they really want to sell you.&lt;/p&gt;
+
+&lt;p&gt;All you have to do is stroll through a grocery store to see this happen again and again with different sizes of products and different prices. &lt;em&gt;“I can get 24 cookies for $3 or 48 cookies for $5… but look over there, that bag of cookies has 36 cookies for $4.50. This 48 cookie bag is a real bargain!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If you notice keenly, they exploit this &lt;em&gt;“comparison”&lt;/em&gt; loophole of our brain to sell the exact thing they want and what we don’t actually need.&lt;/p&gt;
+
+&lt;p&gt;Large pizzas, 1/2 kg flour, pen drives with extra storage.. They even use this technique for election campaigning. &lt;/p&gt;
+
+&lt;p&gt;Its really amazing how our brain can interpret differently if it just has a comparison medium. The decoy.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-truth-about-relativity&quot;&gt;&lt;strong&gt;The Truth about Relativity&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The ways in which people frequently regard their environment in terms of their relation to others; it is the way that the human brain is wired. People not only compare things, but also compare things that are easily comparable. &lt;/p&gt;
+
+&lt;p&gt;For example, if given the following options for a honeymoon:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;1.Paris (with free breakfast)&lt;br /&gt;
+2.Rome (with free breakfast)&lt;br /&gt;
+3.Rome (no breakfast included)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Most people would probably choose Rome with the free breakfast. The rationale is that it is easier to compare the two options for Rome than it is to compare Paris and Rome. The role of the decoy effect (or asymmetric dominance effect) in the decision process. The decoy effect is the phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is asymmetrically dominated. This effect is the “secret agent” in many decisions. In the example with the honeymoon options, Rome without free breakfast is the decoy. (It makes Rome with breakfast look superior to Rome without breakfast. Comparing Rome and Paris is difficult, so the easy comparison of Rome makes it more likely to choose Rome over Paris.) It makes Paris look inferior when compared to Rome with the free breakfast. &lt;/p&gt;
+
+&lt;p&gt;Relativity helps people make decisions but it can also make them miserable. People compare their lives to those of others, leading to jealousy and envy. &lt;em&gt;“The more we have, the more we want”&lt;/em&gt;  and the suggestion to cure is to break the cycle of relativity. To break the cycle, people can control what goes on around them. The focus on smaller &lt;em&gt;“circles”&lt;/em&gt; can boost relative happiness, as can changing this focus from narrow to broad. When considering upgrading a phone, the consumer could think about what else they could buy with the money they would spend on the upgrade.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/interesting/the-decoy-effect&quot;&gt;THE DECOY EFFECT&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 18, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[What if the Moon was a Disco Ball?]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/interesting/what-if-the-moon-was-a-disco-ball"/>
+  <id>http://hmfaysal.github.io/interesting/what-if-the-moon-was-a-disco-ball</id>
+  <published>2014-05-17T00:00:00+00:00</published>
+  <updated>2014-05-17T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Another awesome vlog by VSauce&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/w8I25H3bnNw?theme=light&amp;amp;color=white&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/interesting/what-if-the-moon-was-a-disco-ball&quot;&gt;What if the Moon was a Disco Ball?&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 17, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[The Availability Heuristic ]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/interesting/the-availability-heuristic"/>
+  <id>http://hmfaysal.github.io/interesting/the-availability-heuristic</id>
+  <published>2014-05-17T00:00:00+00:00</published>
+  <updated>2014-05-17T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Imagine you’ve just opened a hypothetical 2,000-word blog post (or essay). I’d like to ask you two questions about your expectations for this piece of writing. Don’t spend too much time deliberating about these; trust your instincts.&lt;/p&gt;
+
+&lt;p&gt;First, how many words do you expect to see that follow the form —–n- (seven letters with an “n” in the 6th spot, which we will call Group 1)?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;0&lt;/li&gt;
+  &lt;li&gt;1-2&lt;/li&gt;
+  &lt;li&gt;3-4&lt;/li&gt;
+  &lt;li&gt;5-7&lt;/li&gt;
+  &lt;li&gt;8-10&lt;/li&gt;
+  &lt;li&gt;11-15&lt;/li&gt;
+  &lt;li&gt;16 or more&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Second, how many words do you expect to see that follow the form —-ing (seven letters ending in “ing”, which we will call Group 2)&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;0&lt;/li&gt;
+  &lt;li&gt;1-2&lt;/li&gt;
+  &lt;li&gt;3-4&lt;/li&gt;
+  &lt;li&gt;5-7&lt;/li&gt;
+  &lt;li&gt;8-10&lt;/li&gt;
+  &lt;li&gt;11-15&lt;/li&gt;
+  &lt;li&gt;16 or more&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s a picture of Nobel Laureate Daniel Kahneman so you can come up with your answers before reading ahead.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/kahneman-HI.jpg&quot; alt=&quot;kahneman-HI.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As some of you will have noticed, every word that fits into the Group 2 must also be in Group 1 (in other words, every “—-ing” word is also a “—–n-“ word). It is also likely that the passage contains a few Group 1 words that don’t follow the Group 2 pattern. So logically, the passage must contain as many Group 1 words as Group 2 words, and probably more Group 1 words.&lt;/p&gt;
+
+&lt;p&gt;Feel like you might need to rethink your guesses? You’re not alone. If you predicted there would be more Group 2 words than Group 1 words, you probably fell victim to the availability heuristic. &lt;/p&gt;
+
+&lt;p&gt;The availability heuristic is a mental shortcut where people estimate the frequency of an event according to how easy it is to think of supporting examples. In this case, it’s easy to think of examples of Group 2 words. Simply come up with an appropriate verb and add the “-ing” as in running, jumping, or dancing. The form of Group 1 isn’t as obviously associated with a certain segment of words as Group 2. Focusing on just the “n” might lead you to come up with words like someone, actions, or husband. However, these take more work to think of than the Group 2 words (unless, of course, you notice that you can use Group 2 words for Group 1).&lt;/p&gt;
+
+&lt;p&gt;Because it’s so much easier to think of examples of Group 2 words, most people estimate that they will occur much more frequently in a text. When the aforementioned Kahneman and collaborator Amos Tversky conducted this experiment, the median estimate for Group 1 was 4.4 words while the median estimate for Group 2 was 13.4 words. &lt;/p&gt;
+
+&lt;p&gt;As the above example shows, the availability heuristic has some powerful effects on our ability to think rationally. Here are some other places where it makes an impact.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;when-facts-arent-facts-who-cleans-more&quot;&gt;&lt;strong&gt;When facts aren’t facts: Who cleans more?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you’ve ever had a roommate, you’ve probably experienced the feeling that you’re doing more than your share of some tasks (or maybe every task). You might be surprised to learn that your evaluation of this may be influenced by the availability heuristic. &lt;/p&gt;
+
+&lt;p&gt;In one study, researchers asked married couples to estimate how responsible they were for 20 relevant activities like making breakfast, caring for children, and cleaning the house. They also included negative activities such as causing arguments.&lt;/p&gt;
+
+&lt;p&gt;In 16 of 20 activities, the combined responsibility that couples attributed to themselves showed statistically significant overestimation (the other four had nonsignificant differences–none showed underestimation). In other words, when you add up the credit the husband takes and the credit the wife takes, you get a number greater than 100% of the responsibility for the activity. Noteworthy is that this trend held true for both positive and negative activities, showing it’s not simply a matter of narcissism.&lt;/p&gt;
+
+&lt;p&gt;When considering what portion of a shared task we’re responsible for, it’s easier to think of examples where we performed the task rather than someone else. As a result, we tend to overestimate how much we’ve really done. &lt;/p&gt;
+
+&lt;p&gt;Keep this in mind next time you feel certain your roommate is freeloading off of your generosity. Then again, maybe (s)he really is a useless bum.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;when-opinions-arent-opinions-what-do-you-think-of-bmws&quot;&gt;&lt;strong&gt;When opinions aren’t opinions: What do you think of BMWs?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Not only does the availability heuristic affect our memories, it can also influence our opinions. &lt;/p&gt;
+
+&lt;p&gt;In another study, researchers asked participants to perform one of four tasks: &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List one reason to buy a BMW (One-For)&lt;/li&gt;
+  &lt;li&gt;List one reason not to buy a BMW (One-Against)&lt;/li&gt;
+  &lt;li&gt;List ten reasons to buy a BMW (Ten-For)&lt;/li&gt;
+  &lt;li&gt;List ten reasons not to buy a BMW (Ten-Against)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Following this, participants were asked questions about their evaluation of BMWs.&lt;/p&gt;
+
+&lt;p&gt;Perhaps unsurprisingly, the results showed that those in the One-For group gave BMWs higher ratings (5.6 out of 7) than those in the One-Against group (4.7). Asking participants to give a reason in favor reminded them of what they like about the cars while asking them to give a reason against reminded them of what the negatives. However, the surprise came when participants in the Ten-For group reported lower opinions (4.4) of BMWs than those in the Ten-Against group (5.9). In other words, asking them to list ten reasons caused a reversal of what was observed when asking them to list only one. &lt;/p&gt;
+
+&lt;p&gt;Why did this happen? Remember that the availability heuristic causes us to feel that things that are easier to think of support for are more true. Generating one reason to like or dislike a BMW is a breeze; coming up with ten takes a lot of work. Our brain says &lt;em&gt;“Thinking up that list was [easy/hard], so that must be a [correct/incorrect] position.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The key idea here is that our opinions can be influenced and manipulated by the cognitive ease of supporting or refuting them. In fact, they’re pliable enough that the ease of a related task can be enough to affect them. The idea that humans can be systematically irrational has grown in popularity over the last several years. Studies like this one reveal that we don’t even know our own preferences. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;To conclude, I’d like to say that most of the time, the availability heuristic works in our favor. Without it, we’d have to conduct a mini-survey every time we wanted to estimate something, so it saves a ton of cognitive resources and time. Let’s say I’m driving and when my light turns green, I catch a glance of another car going a little too fast towards his red light. My memory quickly references the (easily available) time I almost got hit by a car running a red, and tells me this driver is liable to do the same. I elect to wait until he either passes the intersection or slows down enough to where I know he will stop. In this scenario, I’m thankful for the extra second I get from using this heuristic and I don’t care about the difference between a 25% and 75% chance the car runs the light. Speed, not precision, is what matters here. That said, we should be mindful of how availability can affect our perceptions and behaviors.&lt;/p&gt;
+
+&lt;p&gt;One final note, in case you were curious: &lt;em&gt;Of the 1,219 words in this post, 20 (1.6%) are in Group 1 (including the first) and 10 (0.8%) are in Group 2.&lt;/em&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/interesting/the-availability-heuristic&quot;&gt;The Availability Heuristic &lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 17, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Energy Consumption and Other debates in Electrical Engineering]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/energy-consumption-and-other-debates-in-electrical-engineering"/>
+  <id>http://hmfaysal.github.io/personal/energy-consumption-and-other-debates-in-electrical-engineering</id>
+  <published>2014-05-17T00:00:00+00:00</published>
+  <updated>2014-05-17T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#Electrical" term="Electrical" /><category scheme="http://hmfaysal.github.io/tags/#Engineering" term="Engineering" />
+  <content type="html">
+  
+    &lt;p&gt;&lt;em&gt;The biggest driving force in EE today is energy consumption, even in US where the energy policy is ambiguous at best.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;In 2012, 3% of the power consumption in EU was due to the equipment supporting the internet infrastructure (EU Commission annual reports). This is very significant, as the data rates keep going up so the trend is that it will go higher. Seeing that, a lot of grants were given to telecomms manufacturers, startups, and universities to reduce losses in existing opto-electronic systems. Powering a laser to send data over hundreds of km is expensive, esp as the lasers need to be cooled at a very stable temperature or their operational parameters change.&lt;/p&gt;
+
+&lt;p&gt;But it does not stop here. Wind energy is no longer an alternative. it is now a solid energy branch that can supply a good baseline power if the farms are spread over a large area.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantage:&lt;/strong&gt; grid needs to be very robust. There is a need to switch these on/off, and it is not a trivial problem (disconnecting a MW generator as it operates presents a fire risk for instance), hence there is the debate towards which direction do we need to focus the research on. &lt;/p&gt;
+
+&lt;h2 id=&quot;the-hybrid-drivetrain-debate&quot;&gt;&lt;strong&gt;The hybrid drivetrain debate:&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;As of 2014, most personal automobiles can be considered hybrids or hybrid-ready to various degrees. For instance, some manufacturers have adopted smaller turbocharger engines that can be started and stopped at will as you idle (stop) or cruise at a very steady speed. In the carburetor era, this was inconceivable, due to the amount of fuel wasted at each cycle.&lt;/p&gt;
+
+&lt;p&gt;The thing is a complex hybrid drivetrain is becoming heavy with all sorts of auxiliary systems and driving assists. TRW are researching ways to do fully electronic power steering and some cars already feature this. But the design question is whether the added weight isn’t hurting fuel/energy consumption which is a major factor for most people today when they buy a new car.&lt;/p&gt;
+
+&lt;p&gt;Also, going fully electric is not realistic for the time being, because it goes back to the aged electrical grid problem, which can’t be simply switched off and replaced over night. These costs would be passed on to the consumers in the end, which nobody really wants.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The trend of energy consumption can be best seen in semiconductors, particularly computing hardware for the average consumer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Most people don’t need a lot of hardware for browsing the internet or checking their e-mail. I can do that on my cellphone, whose System on a Chip that includes a CPU draws &amp;lt;1 W at full load. My 3y old laptop had a 35W processor with another 20W going to the video card at full load. The new one has a 15W processor for about 10% less of the raw performance of the latter, and the video card is included on chip.
+The battery capacity of both laptops is comparable, but one lasted 2h:30 when it was new, the new one lasts 8h+.&lt;/p&gt;
+
+&lt;p&gt;a bit over a decade ago, the general trend in electronics seemed to be: more, faster, better, cheaper! but in recent times this was amended towards: more, faster, better,cheaper, if reasonably efficient &amp;amp; not significantly harmful to the environment.&lt;/p&gt;
+
+&lt;h2 id=&quot;other-big-debates-come-with-user-interaction&quot;&gt;&lt;strong&gt;Other big debates come with user interaction.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Touch screen vs keyboard? Better gesture recognition? voice recognition? Self-guided/adjusting sensors? Is it worth all that? Though this sort of technology has always seemed to be 30y into the future, placed corectly, they change the way we do maintenance in industrial environments and can make it horribly convenient for the end user (i.e. wipers that start as liquid splashes the windscreen or suspension that becomes higher and softer on a bumpy road.)&lt;/p&gt;
+
+&lt;p&gt;it is important because man-machine interaction is bound to become more important in the upcoming years, and paired with the low energy demands, similar technologies will enable blind people to see and the deaf to hear, among other things.&lt;/p&gt;
+
+&lt;p&gt;I’m a &lt;em&gt;traditionalist&lt;/em&gt;, meaning that every time a key disappears from a laptop keyboard I get upset. But if the software is programmed to do the right job as well, i can keep an open mind. The only thing about it is that people tend to develop a blind confidence in technology very easily: when it’s good, it’s good. When it fails: it’s added weight at best, confusing &amp;amp; crippling at worst.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/energy-consumption-and-other-debates-in-electrical-engineering&quot;&gt;Energy Consumption and Other debates in Electrical Engineering&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 17, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Cross Modal Synesthetic Abstraction:]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/interesting/cross-modal-synesthetic-abstraction"/>
+  <id>http://hmfaysal.github.io/interesting/cross-modal-synesthetic-abstraction</id>
+  <published>2014-05-17T00:00:00+00:00</published>
+  <updated>2014-05-17T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#psychology" term="psychology" />
+  <content type="html">
+  
+    &lt;p&gt;Below are two shapes. One of them is called Kiki and the other is called Bouba.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;http://hmfaysal.github.io/images/kiki-bouba.png&quot;&gt;&lt;img src=&quot;http://hmfaysal.github.io/images/kiki-bouba.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Figure it out!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Almost all respondents when asked say that the jagged one is kiki and the rounded one is bouba. This can be observed across cultures. This is an innate ability of our brain by which one mode of sensation can cross over into another.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/interesting/cross-modal-synesthetic-abstraction&quot;&gt;Cross Modal Synesthetic Abstraction:&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 17, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Jekyll Estimated Reading Time: Liquid, no plugins]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins"/>
+  <id>http://hmfaysal.github.io/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins</id>
+  <published>2014-05-16T00:00:00+00:00</published>
+  <updated>2014-05-16T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;The first time I discovered Medium, I fell in love with its Estimated Reading Time (ERT) feature. It helps bring in the right audience to the right article. The idea behind of this is, maybe it’s early in the morning, you’re in the mood of reading something terse while you get prepared for work, and at dawn, you’re back at home and you just want to curl up on the couch and gorge in a long essay. The ERT helps you find the right article, for the right time.&lt;/p&gt;
+
+&lt;p&gt;So with that in mind, I looked on the internet if someone has already made a code-snippet for this. Sure enough, I found a Jekyll plugin that does it right. But the problem was, I was and currently am hosting with GitHub pages, which does not allow external plugins. So I wrote my own code in Liquid.
+First the calculator:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;assign&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readtime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;strip_html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;number_of_words&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;.0&amp;#39;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;divided_by&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wpm&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Set the &lt;strong&gt;wpm&lt;/strong&gt; in the &lt;code&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;The idea behind it is that an average reader can read 180 words per minute on average. So if I take the page content, strip off the HTML, count the number of words and divide it with 180, I will get the rough estimate of how long it will take an average reader to go through the corresponding article. But you can set the wpm as you see fit.&lt;/p&gt;
+
+&lt;p&gt;Simply putting the {{ readtime }} tag will display a floating point, but we are more interested in integer values for aesthetic and ease of reading purposes. As of Jekyll 2.2.0, Jekyll does not support many of the liquid tags that would have made doing this much easier. But for the time being, we have to do with a custom JavaScript snippet that rounds the number. Just put it in the sites footer.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;.time&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;parseFloat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now any floating point enclosed by the &lt;code&gt;&amp;lt;span class=&quot;time&quot;&amp;gt;12.3334455&amp;lt;/span&amp;gt;&lt;/code&gt; will be rounded by the JavaScript snippet.&lt;/p&gt;
+
+&lt;p&gt;Now that the JavaScript is in place, we can now display the calculated and rounded Estimated Reading time to the reader. For displaying the data to the user, I was interested in 3 different scenarios. If the read-time is less than 1 minute, I wanted to display “Less than 1 minute read”, if the read-time is in between 1 minute to 1 minute 30 seconds, the ERT shows “1 minute read”, and in all the cases where the read-time is more than 1 and half minutes, I wanted to display the calculated read time estimate in “minutes”. The redundancy is to ensure that the pluralization of the word “minute” is being done properly.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readtime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readtime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;sx&quot;&gt;	1 minute read&lt;/span&gt;
+&lt;span class=&quot;sx&quot;&gt;{% endif %}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;readtime&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;%}&lt;/span&gt;
+&lt;span class=&quot;sx&quot;&gt;	&amp;lt;span class=&amp;quot;time&amp;quot;&amp;gt;{{ readtime }&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt; minutes read&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;{% endif %}&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;{% if readtime &amp;lt; 1 %}&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;	Less than 1 minute read&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;{% endif %}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;requests&quot;&gt;&lt;strong&gt;Requests?&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;If you have some specific requests for this snippet, or if you need help custom coding, message me on Twitter &lt;a href=&quot;http://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt; or email me at &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#109;&amp;#102;&amp;#097;&amp;#121;&amp;#115;&amp;#097;&amp;#108;&amp;#064;&amp;#097;&amp;#108;&amp;#117;&amp;#109;&amp;#046;&amp;#109;&amp;#105;&amp;#116;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&quot;&gt;&amp;#104;&amp;#109;&amp;#102;&amp;#097;&amp;#121;&amp;#115;&amp;#097;&amp;#108;&amp;#064;&amp;#097;&amp;#108;&amp;#117;&amp;#109;&amp;#046;&amp;#109;&amp;#105;&amp;#116;&amp;#046;&amp;#101;&amp;#100;&amp;#117;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’d like to give me credit somewhere on your blog or tweet a shout out to &lt;a href=&quot;https://twitter.com/hmfaysal&quot;&gt;@hmfaysal&lt;/a&gt;, that would be pretty sweet.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins&quot;&gt;Jekyll Estimated Reading Time: Liquid, no plugins&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 16, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Two Different Mindsets]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/two-different-mindsets"/>
+  <id>http://hmfaysal.github.io/personal/two-different-mindsets</id>
+  <published>2014-05-15T00:00:00+00:00</published>
+  <updated>2014-05-15T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;&lt;strong&gt;Intro&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#abstract&quot;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#model&quot;&gt;&lt;strong&gt;Model&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#theory&quot;&gt;&lt;strong&gt;Theory&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#language-barrier&quot;&gt;&lt;strong&gt;Language Barrier&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#misalignment-responsibility&quot;&gt;&lt;strong&gt;Misalignment: Responsibility&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#misalignment-motivation&quot;&gt;&lt;strong&gt;Misalignment: Motivation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#example-characters&quot;&gt;&lt;strong&gt;Example Characters&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-real-world&quot;&gt;&lt;strong&gt;The Real World&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-world-from-an-engineering-standpoint&quot;&gt;&lt;strong&gt;The World from an Engineering Standpoint&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-world-from-business-standpoint&quot;&gt;&lt;strong&gt;The World from Business Standpoint&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#a-note-on-sustainability&quot;&gt;&lt;strong&gt;A Note on Sustainability&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-have-we-learned&quot;&gt;&lt;strong&gt;What Have We Learned&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-can-we-do&quot;&gt;&lt;strong&gt;What Can We Do&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-can-business-people-do&quot;&gt;&lt;strong&gt;What Can Business People Do&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#when-talking-to-engineers-be-willing-to-make-sacrifices&quot;&gt;&lt;strong&gt;When talking to engineers, be willing to make sacrifices.&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#improve-clarity-of-your-communication&quot;&gt;&lt;strong&gt;Improve clarity of your communication.&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#break-down-multiple-unrelated-or-loosely-related-topics-into-different-e-mails-and-stick-to-this-breakdown&quot;&gt;&lt;strong&gt;Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#admit-your-mistakes&quot;&gt;&lt;strong&gt;Admit your mistakes.&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#be-aware-that-you-may-be-overestimating-yourself&quot;&gt;&lt;strong&gt;Be aware that you may be overestimating yourself.&lt;/strong&gt;&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#basically-you-may-think-you-are-awesome-because-you-have&quot;&gt;&lt;strong&gt;Basically, you may think you are awesome because you have:&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what-can-engineers-do&quot;&gt;&lt;strong&gt;What Can Engineers Do&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#build-on-your-strengths&quot;&gt;&lt;strong&gt;Build on your strengths.&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#be-aware-that-you-may-be-underestimating-yourself&quot;&gt;&lt;strong&gt;Be aware that you may be underestimating yourself.&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conslusions&quot;&gt;&lt;strong&gt;Conslusions&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;intro&quot;&gt;&lt;strong&gt;Intro&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Throughout life we learn to adapt to how other people think, speak and make decisions. We alter our ways to exhibit and perceive thoughts and emotions towards and from various people to enjoy better communication and deeper connection with them.&lt;/p&gt;
+
+&lt;p&gt;Rather than using the same way to connect with everybody we learn how to adjust our own style to make more sustainable, enjoyable and efficient connections with people around us. But to connect with different people smoothly different adjustments are often “required”.&lt;/p&gt;
+
+&lt;p&gt;Why is there no single way of communication that &lt;em&gt;“just works”&lt;/em&gt; with everybody? Why can’t we just &lt;em&gt;“be ourselves”, “act naturally”&lt;/em&gt; and keep discovering that one natural behavior achieves desired results just fine?&lt;/p&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I think the key to why people “respond well” to different ways of communication lays in the fact that different people use their brains in fundamentally different ways.&lt;/p&gt;
+
+&lt;p&gt;Let me explain the idea by an example. I will use engineer vs. business mindset dichotomy to keep it short.&lt;/p&gt;
+
+&lt;p&gt;A while ago I could say that someone thinks and acts more like an engineer or more like a businesswoman simply because her life predominantly had to do with engineering or with business.&lt;/p&gt;
+
+&lt;p&gt;Now I suggest replacing this logic by an alternate one. She used to be and now is a person whose brain prefers certain way of thinking. Hence she had a predisposition to become an engineer or a businesswoman; which is exactly what happened.&lt;/p&gt;
+
+&lt;p&gt;Simply put, the way someone thinks is not due to the nature of what she used to do in life. It goes the other way around: what the person has been doing in life is largely the result of the very fact that throughout the years she used to prefer certain way of thinking.&lt;/p&gt;
+
+&lt;p&gt;Understanding this concept turned out to be more important for me than getting all the facts right. Now, being aware of what people do, observing how they act and listening to how they speak allows me to have an insight to the way they think and thus adjust my communication style accordingly, for the mutual benefit.&lt;/p&gt;
+
+&lt;h2 id=&quot;model&quot;&gt;&lt;strong&gt;Model&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;It won’t be exactly what I’m about to get into details. But if you wish to remember one thing it would be: don’t underestimate the ultimate differences between analysis-based and faith-based ways of living.&lt;/p&gt;
+
+&lt;p&gt;Certain behavioral traits can be grouped together. Together they form a solid system through which an individual sees the world. Let’s take “analysis-based” and “faith-based” approaches as seeds and grow the universes of traits around them.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Along with analytical approach comes critical thinking. Then follows worst-case scenario analysis. It implies negative thinking and being pessimistic until proven otherwise. There follows precise structure and organization of thought. This, in turn, translates into how an analytical person would reason, present an argument or outline the course of action. This becomes the basis from which she would act and expect others act. She would stick to the plan until a better plan is presented; and the definition of “the better plan” would again involve worst-case scenario analysis, critical thinking and prospective course of action outlined step-by-step.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Along with faith comes trust in and attachment to the upcoming result. It implies positive thinking; castles in the sky. This translates to being optimistic about the outcome and ignoring red flags along the way. The faith-driven person does not need a plan, at least not in the analytical definition of what the plan is. She knows the pieces will eventually come together one way or another. Talking about the worst-case scenario is pretty much pointless: a faith-driven person believes that if something is not working out, a new, totally unexpected opportunity will present itself and that would be the one to switch to.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A truly analytical person would never be dumbfounded or taken aback. She is already prepared and well-equipped for several worst-case scenarios. “Anything different is good”: if something does not go according to the plan, it can be nothing but a pleasant surprise.&lt;/p&gt;
+
+&lt;p&gt;A truly faith-driven person, on the other end, can hardly be pleasantly surprised. Not to say she is waiting for the success, but she is certainly expecting one. When you are prepared for the world to turn to you and have dismissed other possibilities, why bother acknowledging that the world does indeed cooperate?&lt;/p&gt;
+
+&lt;h2 id=&quot;theory&quot;&gt;&lt;strong&gt;Theory&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;I am coming to the conclusion that being analytical- or faith-driven is more or less a hard-coded thing for a grown up.&lt;/p&gt;
+
+&lt;p&gt;It is not something that can be easily changed. Nor should it be, given that the whole character of the person largely revolves around the way she observes the world. Changing it instantaneously would almost certainly kick her way out of her comfort zone to say the least.&lt;/p&gt;
+
+&lt;p&gt;Having accepted this it’s natural to expect that throughout our lives:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Analytical people will constantly be reminded that the people around them often are reckless and don’t have a clue of fundamental cause-effect relationship. They just seem to try and fail only to try and fail again.&lt;/li&gt;
+  &lt;li&gt;Faith-driven people, on the other hand, would be surprised how often their bright ideas are not supported by the people around them, when all it should take for everybody around is to “just” trust and follow.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Much like muscles in our body tend to overdevelop to compensate for the ones that, for some reason, are not doing their job well, our brain would also adjust to “compensate” for the “downsides” of our major way of thinking.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;For those who tend to think analytically, their brain would strongly resist any desire to have faith in something that obviously has drawbacks. And the more analytical someone is the more drawbacks would she see in pretty much any idea. Being perfectionists by nature, often times even success of a similar idea would not be a convincing factor for an analytical person as long as they can point out what possible alternative scenarios might have yielded different results.&lt;/li&gt;
+  &lt;li&gt;For those who tend to rely on faith in their ideas, their brain would pretty much become incapable of performing or even following an analysis of a worst-case scenario. Faith-driven people literally lose the ability to learn from their mistakes. Since plans are never cut in stone, something not going as it was originally supposed to is hardly a mistake. The world was not ready, the time has not come yet, the people involved did not have faith strong enough to push it through — but nothing was done wrong. A person powered by faith will continue believing in her ideas until some of them eventually work out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;language-barrier&quot;&gt;&lt;strong&gt;Language Barrier&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Bitter irony is that when a mature faith-driven person starts dealing with a mature analytical person they are destined to speak in different languages being unaware of this very fact.&lt;/p&gt;
+
+&lt;p&gt;I spent some time trying to pinpoint what sorts of “language barriers” cause most troubles and have identified two major pitfalls to watch for.&lt;/p&gt;
+
+&lt;h2 id=&quot;misalignment-responsibility&quot;&gt;&lt;strong&gt;Misalignment: Responsibility&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The concept of responsibility is fundamentally different, even when the same words are being used.&lt;/p&gt;
+
+&lt;p&gt;Analytical people would weigh the pros and cons, estimate the amount of time and energy required from their side, and say “yes” once they are willing to commit.&lt;/p&gt;
+
+&lt;p&gt;People of faith would accept a milestone as soon as they believe hitting it goes along the path to success they have envisioned.&lt;/p&gt;
+
+&lt;p&gt;Later on if or when something goes wrong an analytical person would apologize for the inconvenience, find a flaw in her analysis and come up with a new plan that accomplishes the higher-level goal. To some extent, she would take such a failure personally: after all, the cards were out, the commitment was made and signed by her, therefore, something that should have been accounted for apparently was not.&lt;/p&gt;
+
+&lt;p&gt;The person of faith, on the other hand, would not take missing a mid-term goal anyhow seriously. As long as it doesn’t feel that overall success is anyhow endangered, they will keep moving forward. If the obstacle is severe, their higher-level intuition will kick in and some “big gun” will be introduced into the picture — and they would prefer to see themselves as visionaries and saviors, as the driving force behind making things happen, rather than as someone who did not do the planning part well.&lt;/p&gt;
+
+&lt;p&gt;To an analytical person a commitment backed up by faith is not more trustworthy than a horoscope. Unfortunately, faith-driven people frequently have amazing speaking skills. Even people who are extremely strong in analytics would sometimes find themselves fooled by a convincing story that could not possibly pass any rational rejection test yet was presented just right to “click it” and get accepted.&lt;/p&gt;
+
+&lt;p&gt;To a faith person the analysis of exactly why certain commitment can be made does not carry much value. Something can be done and the person who claims this can be trusted — that’s good enough for a faith-driven person to proceed. Unfortunately, she would almost never understand and appreciate that the degree of confidence and the success rate of commitments coming from an analytical person is much higher compared to what she might usually be getting from other people.&lt;/p&gt;
+
+&lt;p&gt;Simply put, the strength of the very same English phrase “I will have it done” ranges widely from vague “this is likely to happen according to what I believe should happen” up until “I hereby commit to having this done and will relentlessly do whatever it takes to keep my word”.&lt;/p&gt;
+
+&lt;h2 id=&quot;misalignment-motivation&quot;&gt;&lt;strong&gt;Misalignment: Motivation&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Another big area of misunderstanding is the source of motivation different people employ.&lt;/p&gt;
+
+&lt;p&gt;People of faith consider achieving the end result to be the ultimate goal. They want to “get it”, be it the reward, destination, recognition or something else. How easy or hard has the path been has nothing to do with the overall satisfaction. It only matters whether they have made it there.&lt;/p&gt;
+
+&lt;p&gt;Naturally, this attitude teaches to “stick to the opportunities”, “chase success” and “snatch the victory”. For such a straightforward definition of the goal people of faith are more than willing to change their approach completely as long as they see a “shortcut” that may get to the goal faster or with less effort.&lt;/p&gt;
+
+&lt;p&gt;Analytical people find joy in solving complex problems. It’s equally meaningless to be doing something too easy or something absolutely impossible: an obvious success or an obvious failure teaches nothing new. The sweet spot is to work on something on the boundary of extremely challenging yet possible to accomplish.&lt;/p&gt;
+
+&lt;p&gt;Using a shortcut to get to the solution may be pleasant but has bitter aftertaste. Not noticing one beforehand is, in a way, a planning failure. Constantly improving the analytical skills themselves is a crucial goal on its own. The hard way that leads to the success is often as important and rewarding as the success itself.&lt;/p&gt;
+
+&lt;p&gt;Analytical people would often perceive successful faith-driven people as cheaters. Indeed, due to the survivorship bias, the most successful people would be the ones that didn’t have to work hard for their success — all it took to get there was to pick the right shortcut or two.&lt;/p&gt;
+
+&lt;p&gt;People of faith, on the other hand, would find the approach of analytical people unimaginative. Why focus on delivering a flawless, near-perfect result if by opening large number of doors over an extended period of time the treasure, eventually, is to be found right behind some of them?&lt;/p&gt;
+
+&lt;p&gt;If an analytical person is being presented someone else’s success as the reference, her first thinking would often go along the lines of “they have been lucky to be doing the right thing at the right place at the right time”. Asking to repeat this success “because someone else managed to make it through” is a sure way to get an analytical person suspicious. After all, how does one’s success story guarantee future success of a similar idea?&lt;/p&gt;
+
+&lt;p&gt;Similarly, carefully analyzing how big of a role did luck play in the referenced scenario is a sure way to annoy a faith-driven person. “Just try it, you’ll have even more luck since you now have the path outlined for you” — would their faith say, and it’s hard to blame such an approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;example-characters&quot;&gt;&lt;strong&gt;Example Characters&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;The above can be illustrated by looking at several fictional characters.&lt;/p&gt;
+
+&lt;p&gt;Not mentioning Mr. Spock, a canonical analytical person would be Dr. Gregory House. Solving tricky puzzles is what his life is about. He wouldn’t hesitate to use borderline methods and even put other people’s health and lives at risk in order to get to the solution he’s seeking for.&lt;/p&gt;
+
+&lt;p&gt;In the other camp, discounting Forrest Gump, a decent example of a person of faith would be James Bond. He often gets himself into trouble by literally walking into some relatively predictable pitfalls. Consecutively, he requires lots of lucky circumstances to get away with it yet another time.&lt;/p&gt;
+
+&lt;p&gt;Out of Dr. House and Mr. Bond the latter accomplishes results of larger magnitude. At the same time, he requires much greater deal of luck than the former.&lt;/p&gt;
+
+&lt;p&gt;It is also worth pointing out that both characters have complementary counterparts, namely Dr. James Wilson and Q, who provide significant help along the way.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-real-world&quot;&gt;&lt;strong&gt;The Real World&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;As you have probably guessed by now, I am about to throw in an assumption that successful engineers would mostly be the people of analytical mindset while successful businessmen would often rely on their faith as their main strength.&lt;/p&gt;
+
+&lt;p&gt;Obviously there are always shades of grey, but the differences in behaviors are noticeable enough and can be categorized accordingly.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-world-from-an-engineering-standpoint&quot;&gt;&lt;strong&gt;The World from an Engineering Standpoint&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;When engineers are deep in a conversation they would constantly challenge each other. They will find flaws in each other’s reasoning and shape their models of the world to ultimately account for every possible issue they can see.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Engineers love Murphy’s law: “Anything that can go wrong, will go wrong”. &lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They would analyze every aspect of the problem and its domain until they get convinced they understand it well enough to crack.&lt;/p&gt;
+
+&lt;p&gt;Throughout the process of decomposition, a real-life problem starts to look much like a chess one. The constraints are clearly identified, the figures are placed and the task is to find that one strategy that leads to flawless victory no matter how your opponent would try to counter.&lt;/p&gt;
+
+&lt;p&gt;For people with perfect analytical mind the games are won before the first move is made. They play to win or don’t play.&lt;/p&gt;
+
+&lt;p&gt;If there is more than one flawless strategy, then the constraints are too loose and should be tightened for increased fun and excitement. Do it faster. Do it using less resources. Make it perfect. Strive for beauty along with efficiency.&lt;/p&gt;
+
+&lt;p&gt;Another good quote Google Site Reliability Engineers like to use is “hope is not a strategy”. It indeed is not: when GMail is at risk of doing down, the only right thing to do is to preventatively eliminate this possibility or at least reduce its chance to an acceptable, negligibly tiny one.&lt;/p&gt;
+
+&lt;p&gt;While the above quotes are very much in line with how engineers speak, talking in that manner to a business person may cause troubles.&lt;/p&gt;
+
+&lt;p&gt;“It’s working out well for the others, why are you trying to find more ways it may not work for you?” — would a reply from a business person often sound like. My personal favorite is: “We are going to make certain assumptions along our way to success. Don’t try to account for any possible bad scenario, just do the right things and let’s count on getting lucky”.&lt;/p&gt;
+
+&lt;p&gt;While being an amazing strategy at the late stages of poker tournaments, life is not meant to allow someone else turn it into a gamble because that’s a natural way of living for that person. Admittedly, faith-driven people are not great at critical thinking and worst-case scenario analysis.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-world-from-business-standpoint&quot;&gt;&lt;strong&gt;The World from Business Standpoint&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Business people tend to skip the details and talk big.&lt;/p&gt;
+
+&lt;p&gt;All they need to establish a connection is a high-level confirmation that they understand some phenomenon in more or less the same way. As soon as the beliefs of one businessman align well with the prospective picture of the world of another businessman, they “click”. The details are less important: once they intuitively agree that the idea is plausible and money can be made there, details aside, it’s a done deal.&lt;/p&gt;
+
+&lt;p&gt;“Never be afraid to try something new. Remember that a lone amateur built the Ark. A large group of professionals built the Titanic”. This Dave Barry’s quote is an example of high-level speech people of faith love using. Inserting such a phrase makes business presentation stronger: indeed, the speaker assures us that she is well aware of the magnitude of her ambitions but doesn’t let it question the strength of her faith in success.&lt;/p&gt;
+
+&lt;p&gt;An engineer, on the other hand, would instantly point out that there is no rational explanation how “the Ark argument” has anything to do with convincing her to commit to a crazy idea.&lt;/p&gt;
+
+&lt;p&gt;One can’t compare Titanic, as one of many vessels built, to an Ark, that stands as one of a kind. The of evidence for Ark’s reliability is based on one case; putting aside the fact we still exist, who knows if it would have survived another journey? Given a choice on how to cross the Atlantic, an engineer would certainly pick Olympic, Titanic’s twin, over Ark. While she is well aware of Titanic’s tragedy and a dozen more, transatlantic travel industry is consistently producing reliable boats and the success rate for them reaching the other side of the ocean is high enough — while no substantial engineering analysis of how reliable the Ark is was ever performed.&lt;/p&gt;
+
+&lt;p&gt;An engineer would be very careful trusting someone who compares Titanic to Ark in an attempt to convince her to pursue working on something. It would be — correctly — heard as an indicator of absence of anyhow decent plan, at least for her definition of how the “plan” should look like.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-note-on-sustainability&quot;&gt;&lt;strong&gt;A Note on Sustainability&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;While I myself have come to the world of business from engineering, I would like to point out that while putting this analysis together I have tried to be as unbiased as possible, and have done so for a reason.&lt;/p&gt;
+
+&lt;p&gt;Fundamentally our societal structure as of today needs experts from both worlds.&lt;/p&gt;
+
+&lt;p&gt;It’s true that it does take tons of critical thinking and worst-case-scenario sort of analysis to drive technology forward. Faith is by far not enough to build satellite-based global positioning system or an Internet service for a billion users. Experience and hard work come in handy here.&lt;/p&gt;
+
+&lt;p&gt;It’s true that to bring technology to the people, on the other hand, it takes a visionary. Someone who has an idea, believes in it and leads the way. The stories of the ideas that did make it to change our lives today would often feature people who were obsessed by their idea and ignoring negative arguments. One has to firmly state that the moon is solid to get the first spacecraft there.&lt;/p&gt;
+
+&lt;p&gt;History does know quite a few people who believed in the idea that just could not work, but to me this only demonstrates how does the mechanism, that moves the world forward, function.&lt;/p&gt;
+
+&lt;p&gt;Also I have come to an understanding that the way analytical and visionary ways of thinking co-exist we will always disagree on our contribution.&lt;/p&gt;
+
+&lt;p&gt;Those who do the math will proudly believe that the rocket could not take satellites into space if not their zealous, careful work. And they will be right. Those who have been obsessed by how great would it be to connect a billion people online would attribute the success of such a product to the fact that they have presented this idea in the right way to the right people. And they will be right too.&lt;/p&gt;
+
+&lt;p&gt;Within engineers and visionaries it may be possible to share the credit among the team for it to sum up to 100%. But if you ask each group to estimate their contribution individually, leaving some credit to the other group, the sum among both groups will always exceed 100%.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-have-we-learned&quot;&gt;&lt;strong&gt;What Have We Learned&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Luckily, our world is not black and white. Canonically analytical and canonically faith-driven people don’t appear often. Under normal circumstances we deal with some blends of these two extreme personalities.&lt;/p&gt;
+
+&lt;p&gt;Nonetheless, the traits have been identified and behavioral patterns are clear. I myself have transitioned from an engineer into a business person and have witnessed drastic differences in the ways these two world operate.&lt;/p&gt;
+
+&lt;p&gt;Having observed engineers in their natural habitat and being part of it for quite some time, I can confirm that many of us do more or less mimic Dr. House or Q from MI6 in the ways we think and act. Engineers prefer structure and predictability. They can afford to rely on each other in many ways. Their planning, even for years ahead, has nothing to do with daydreaming and can be surprisingly accurate. James Bond type of people, who happened to have the world work out well for them all the time, are quite rare in engineering, although one does work for Google.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, being exposed to the business side of the world I can confirm that business people talk and make decisions differently. They assign values to ideas based on how well those ideas match their beliefs, based on who has come up with the idea, based on how, when and where was the idea presented. Implementation details are not on their radar as long as there is enough evidence to back up the assumption that the idea can be implemented and the people who can reliably make it live are available and can be motivated to do so.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-we-do&quot;&gt;&lt;strong&gt;What Can We Do&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Having thought this over carefully, it crossed my mind that there may be some hints younger me might have found useful a while ago; hints slightly less general and more actionable than “Surround yourself with people you are comfortable with” or “Listen, smile, agree and then do whatever the f**k you were gonna do anyway”.&lt;/p&gt;
+
+&lt;p&gt;I have to make a disclaimer here that my heart is with the engineering world and, much like I’d love to be as unbiased as possible, next few paragraphs would probably be favoring analytical approach.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-business-people-do&quot;&gt;&lt;strong&gt;What Can Business People Do&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Be prepared visionaries are often not taken seriously.&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s one of the destinies of the visionary. Although it’s obvious that somebody out here is seeing what the future would bring, people in general are having hard time telling the picture of the future from plain fantasies.&lt;/p&gt;
+
+&lt;p&gt;It’s great to be able to say “I was the guy who first believed in Google and I know Sergey personally”. It’s even better when it sounds “Yes, I am a strong believer in collaborative consumption, and in fact I was one of the first investors into AirBnb, which yielded me several million net”. While sounds awesome, not many people have the luxury to present themselves this way. And, frankly, we all understand that even big prior successes may have to largely owe luck for themselves.&lt;/p&gt;
+
+&lt;p&gt;Unlike engineering capacities your business skills are harder to be judged. An engineer with background and reputation will almost always deliver the service she has committed to deliver. In your world, due to the very nature of how business works, you will not be able to provide guarantees no matter how clear your vision is.&lt;/p&gt;
+
+&lt;p&gt;But don’t let this fact force you to focus exclusively on mastering the skills of talking people into believing you. At the end wise people from the other, analytical, camp will look at the facts, not at how well you speak. So grow your network and build the track record. Start early and it will pay off.&lt;/p&gt;
+
+&lt;h2 id=&quot;when-talking-to-engineers-be-willing-to-make-sacrifices&quot;&gt;&lt;strong&gt;When talking to engineers, be willing to make sacrifices.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Understand that fundamentally the level of guarantee and commitment you can get from an engineer is higher than the faith you can bring to the table from your side. Her skills would build the service, while your connections guarantee neither money, nor traction, nor bright future.&lt;/p&gt;
+
+&lt;p&gt;My business partner once told me: “There can be no guarantees in what I do! If you heard something as if I promised to have that done, you heard it wrong!”. Needless to say, the commitments from my side not only have been more formal and more carefully communicated: they have been accomplished or just about to get there.&lt;/p&gt;
+
+&lt;p&gt;Therefore, be willing to compromise on the terms. Do your homework better to convince the people who refuse to trust your faith and want the proof. Establish strong partnerships before starting to build the product. Raise money first and do it in a way that ensures that your investors would keep funding your project while you are searching for other markets or considering to pivot the product.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that from the point of view of an engineer an issue in any of these business tasks will be your and only your fault. Engineers don’t like to gamble. They like to deliver products and see them take off. And you will have to speak in their language to have them follow you.&lt;/p&gt;
+
+&lt;h2 id=&quot;improve-clarity-of-your-communication&quot;&gt;&lt;strong&gt;Improve clarity of your communication.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;On its own this is a much broader topic but it should be touched here at least briefly.&lt;/p&gt;
+
+&lt;p&gt;Engineers like the communication to be structured and complete. Especially over the e-mail. Look back to the last few e-mail threads involving engineers and business people. The engineers would often be the guys with the last reply. Because we are addicted to completeness. We follow up.&lt;/p&gt;
+
+&lt;p&gt;Engineering “protocol” to communications is quite a formal one. Questions are asked in the way that allows — and expects — short, clear and simple answers. Ideally an e-mail to an engineer should be composed such that it is possible to give a meaningful and useful answer by spending just a few seconds.&lt;/p&gt;
+
+&lt;p&gt;So, when communicating with an engineer, answer the questions she asks. All of them. Like the engineers in her world would do. Make sure your answers answer precisely the questions asked and do so in full. If uncertain, make it clear that you understand that your answer may not be complete and that you would be willing to discuss the matter in more detail or answer lower lever clarification questions as the follow-up.&lt;/p&gt;
+
+&lt;p&gt;Similarly, formulate your questions in a way that answering them in complete and unambiguous manner takes seconds. The less clear your question is and the more effort it requires to answer, the higher the chance is it would just be ignored.&lt;/p&gt;
+
+&lt;h3 id=&quot;break-down-multiple-unrelated-or-loosely-related-topics-into-different-e-mails-and-stick-to-this-breakdown&quot;&gt;&lt;strong&gt;Break down multiple unrelated or loosely-related topics into different e-mails. And stick to this breakdown!&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;This way, even months and years after communications took place they make perfect sense. It’s clear which decisions were made, who was supposed to follow up, if that was required and what the result of the follow-up was — or where should one look for it.&lt;/p&gt;
+
+&lt;p&gt;If you see that more effort than plain “yes” would be required to reply, it’s your job to reformulate the question or suggestion to invite a short and simple answer. Instead of “How would this look like?” you may say “I’d like to better understand how this would look, could you find time to talk to me for half an hour after lunch today?” Instead of “How would these modules communicate?” ask “Am I getting it right that you are working on a design doc for this? Could you prepare a draft by Wednesday so that we could take a look together?”&lt;/p&gt;
+
+&lt;p&gt;Special “kudos” go to people who don’t bother transferring ownership, asking questions or stating action items in the way they communicate. If you just like writing as a process itself, there’s Facebook to give you audience. People with analytical mindsets would soon start ignoring the e-mails from you.&lt;/p&gt;
+
+&lt;p&gt;While formalities may feel constraining to a high-flying business visionary, try sticking to them for a while when dealing with analytical people. You’ll be surprised how smoother the communication would become, how much more you would achieve and how noticeable the relief from stress will be.&lt;/p&gt;
+
+&lt;p&gt;And if you wish an engineer to never want to deal with you in the future, nothing works better than bloated communication. Don’t provide clear answers to her questions. Write long thoughts on unrelated topics and don’t ask explicit questions. Reply with an idea or suggestion that has nothing to do with how the conversation started. Engineers will start avoiding you very soon, and you will be able to dedicate 100% of your time to corporate bullshit… err, to important strategic conversations.&lt;/p&gt;
+
+&lt;h2 id=&quot;admit-your-mistakes&quot;&gt;&lt;strong&gt;Admit your mistakes.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;What you consider an attempt to express your optimistic picture of the world other people may and will take as your plan. Consecutively, when most of this “plan” doesn’t come true, you would develop an aura of a very anxious person who tends to be overoptimistic — read “wrong” — more often than not.&lt;/p&gt;
+
+&lt;p&gt;And nothing can make an analytical person choose to not have anything to do with you better than demonstrating your ignorance towards your past “successes”.&lt;/p&gt;
+
+&lt;p&gt;If you wanted to bulid a mobile application for 100M users but ended up getting only 10K, losing the key developer and selling it to a competitor — that’s a failure. It doesn’t matter if you managed to make some money of it. You may be able to “sell” this story as the demonstration of your solid business skills to other business people. But not to an engineer.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-aware-that-you-may-be-overestimating-yourself&quot;&gt;&lt;strong&gt;Be aware that you may be overestimating yourself.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;While in more arranged and structured environments strong signals and metrics exist, business skills are very situational. The nature of the business world makes it less predictable and more random.&lt;/p&gt;
+
+&lt;p&gt;This makes the people deep involved in it more likely to suffer from the Dunning–Kruger effect.&lt;/p&gt;
+
+&lt;h3 id=&quot;basically-you-may-think-you-are-awesome-because-you-have&quot;&gt;&lt;strong&gt;Basically, you may think you are awesome because you have:&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;-decent understanding of how the world works,
+-vision of how it should it look like soon,
+-good idea of your role and your prospective contribution to the world,
+-solid presentation and speaking skills,
+-some success in the past, and
+-listeners, supporters and followers, who constantly fuel your belief of how awesome of a business person you are.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, one can easily have all six bullet points of the above and yet not be as great in business as you think.&lt;/p&gt;
+
+&lt;p&gt;Business team can rely on the engineering team delivering the results. Engineering team can not rely on business team to have the business side covered. Building the product is easier than selling it, and you are the one doing the latter.&lt;/p&gt;
+
+&lt;p&gt;With great power comes great responsibility and this responsibility starts with how true are you to yourself and how well do you understand your strengths and weaknesses. Otherwise you’ll be risking letting your team down.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-can-engineers-do&quot;&gt;&lt;strong&gt;What Can Engineers Do&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Master your negotiation skills.&lt;/p&gt;
+
+&lt;p&gt;Your words and commitments are orders of magnitude stronger than those from many other people. Combine this with your skill of rationally presenting an argument no matter how complex it is. And with your ability to express thoughts clearly in writing, over e-mail.&lt;/p&gt;
+
+&lt;p&gt;That’s a damn strong superpower that would be embarrassing not to use. Yet, many people with engineering mindsets pass on it from time to time.&lt;/p&gt;
+
+&lt;p&gt;They carefully design and develop stuff at work, yet accept job offers “because I liked it there” without going through their standard “routine” of considering worst-case scenarios and protecting against them.&lt;/p&gt;
+
+&lt;p&gt;They choose to speak “they way people are supposed to speak in those situations” vastly underestimating the effect their “standard”, analytical, approach could have — and the respect it could have earned had they chosen to use it. With business people around this prevents them from making connections that may have changed their whole lives later on — just because they were afraid to “misbehave”.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that you are superior to most people around you when it comes to decomposing big picture into pieces and finding weak links. But people who would be persuading you to do something for them are, in their turn, well trained in making you lower your defense and follow your intuition instead. They won’t be able to fool your brain. But they can sneak past it and call for your “gut feeling”, which is surprisingly easy to be fooled by an expert.&lt;/p&gt;
+
+&lt;p&gt;Often times people around you will try to abuse this fact. It would benefit you greatly if you are able to identify those “experts” and force them to play on your field of rational reasoning and critical thinking.&lt;/p&gt;
+
+&lt;h2 id=&quot;build-on-your-strengths&quot;&gt;&lt;strong&gt;Build on your strengths.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;You can have things done. And it scales. You are lucky to live in the XXI century where the means to be doing so are available as they have never been before.&lt;/p&gt;
+
+&lt;p&gt;A business person requires time, resources and sometimes luck in order to influence the world. You can do it from the bathroom, consistently, in small but persistent steps with no risks whatsoever.&lt;/p&gt;
+
+&lt;p&gt;Creating something that lasts long enough to mean something is a rare talent that you possess. It would be a shame to not make good use of it.&lt;/p&gt;
+
+&lt;p&gt;Just do stuff. Pick the right things to do and do them well. Attend conferences. Take part in competitions. Contribute back to the community. Become a tech evangelist. Give talks. Participate in an open source project. Start a blog.&lt;/p&gt;
+
+&lt;p&gt;Just one reasonable and appropriate comment on a tricky question on StackOverflow puts you way above many others. I know this for a fact after hiring engineers based on this very signal.&lt;/p&gt;
+
+&lt;p&gt;While others are waiting passively or keep complaining about stuff, choose to contribute part of your time and energy to make the world a better place. You will be surprised how soon would this approach get rewarded.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-aware-that-you-may-be-underestimating-yourself&quot;&gt;&lt;strong&gt;Be aware that you may be underestimating yourself.&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;While this bullet point may sound insulting for the people attributing themselves to the world of business, the next one will be even more insulting — so bear with me for a while.&lt;/p&gt;
+
+&lt;p&gt;Looking back at their successful projects engineers would literally always find it possible to have achieved the same result faster or with less resources. The feeling of imperfection, “I could have done this better”, would be there all the time.&lt;/p&gt;
+
+&lt;p&gt;It used to haunt me all the time until I’ve realized that engineering execution is in fact a small part of the job: analysis and planning is the big one. To bring in an analogy, an engineer is a lot like a bomb technician. The job looks routine from the outside: evacuate people and cut the red wire. But it’s not the skill of cutting the wire that makes a good bomb technician; it’s knowing a hell lot more to back up this decision and make it right all the times.&lt;/p&gt;
+
+&lt;p&gt;Consistency and predictability of the results, along with our availability at hand is what we are paid for. Don’t worry if something doesn’t look that difficult or impressive after you’ve built it. It’s up and running! No many products nowadays are technically impressive. From the engineering standpoint ultimately making them work is what counts.&lt;/p&gt;
+
+&lt;p&gt;Don’t let it catch you by surprise when you, again, find yourself surrounded by morons.&lt;/p&gt;
+
+&lt;p&gt;Yes, you are reading this right. Neither your definition of moron nor your estimate of their density are off. A grown up incapable of using reasoning mechanisms an average ten year old human being possesses does qualify for one. And there are plenty around.&lt;/p&gt;
+
+&lt;p&gt;Moreover, they will ambush you more and more often should you decide to get exposed to the world of business.&lt;/p&gt;
+
+&lt;p&gt;If you happen to have strong analytical mind, chances are that your level of commitment is way above commonly accepted average. To sustain your life though, you still have to count on people. You will be let down frequently, and your perfectly rational explanation of how easily could this have been avoided would just not be heard. At best.&lt;/p&gt;
+
+&lt;p&gt;In the world of engineering when twenty people tell you “It’s easy, would take me a day, I’ll do it”, nineteen of them will eventually do it. You might have to remind them, perhaps twice, and it would take a week instead of a day. But it will be done.&lt;/p&gt;
+
+&lt;p&gt;In the world of business it’s not unusual to have nineteen of those twenty people label you as someone who “doesn’t understand how business works at all” once you approach them firmly asking to keep their word. Even if you have spoken to them a while ago and have confirmed they will do it. Even if you have an e-mail from each and every of them saying “Yes, I will do it”.&lt;/p&gt;
+
+&lt;p&gt;My business partner once said “Yes, 95% of the people we try to work with are going to be idiots. But we should face it together as the team.” He was noticeably upset after I pointed out that those idiots are conveniently clustered in the field of business and that our initial agreement was that dealing with business issues is his job.&lt;/p&gt;
+
+&lt;p&gt;Bottom line: if you are an engineer willing to get involved with business tasks get ready for morons around you. Get used to it. Or delegate dealing with them to someone else. Or both. But save your nerves and energies — you will need them to build more solutions down the road.&lt;/p&gt;
+
+&lt;h2 id=&quot;conslusions&quot;&gt;&lt;strong&gt;Conslusions&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;p&gt;Praemonitus praemunitus. Being aware of the existence of two different worlds is an important piece of knowledge. It allows you to quickly tell what drives this person. It allows you to understand which areas would she excel at and which would she be trying to avoid.&lt;/p&gt;
+
+&lt;p&gt;Analysis- and faith-driven processes complement each other. You will definitely need people from both sides on your team.&lt;/p&gt;
+
+&lt;p&gt;And, more importantly, being capable of playing both roles yourself is a huge overpower.&lt;/p&gt;
+
+&lt;p&gt;If you are an engineer considering going into business, or a businessman considering engineer, I’d like to wish you serenity to accept the things you cannot change, courage to change the things you can and wisdom to tell the difference.&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/two-different-mindsets&quot;&gt;Two Different Mindsets&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Software Engineer Traits]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/software-engineer-traits"/>
+  <id>http://hmfaysal.github.io/personal/software-engineer-traits</id>
+  <published>2014-05-15T00:00:00+00:00</published>
+  <updated>2014-05-15T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;A while ago &lt;a href=&quot;https://medium.com/@ev&quot;&gt;Ev&lt;/a&gt; challenged me to consider what makes a good engineer.&lt;/p&gt;
+
+&lt;p&gt;The obvious answer included characteristics such as &lt;em&gt;smart, works fast, good architectural sense, thinks outside the box, excellent technical knowledge, great problem solving skills,&lt;/em&gt; etc…&lt;/p&gt;
+
+&lt;p&gt;While accurate, this list wasn’t very satisfying. Shouldn’t there be a deeper truth?&lt;/p&gt;
+
+&lt;p&gt;The question plagued me and I spent quite a bit of time thinking about it. I discussed it with other engineers I respect and eventually came up with four meta traits that capture the essence of a good engineer, from which other traits flow.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;curiosity&quot;&gt;Curiosity&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;A strong desire to know or learn something.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Curiosity is important throughout the life of an engineer. It drives us to learn new programming languages, experiment with new systems, and to figure out novel ways to solve problems. It’s what causes us to question assumptions and seek to understand the architectural choices made by others. A lot of the traits commonly ascribed to a good engineer stem from a rich sense of curiosity.&lt;/p&gt;
+
+&lt;h2 id=&quot;awareness&quot;&gt;Awareness&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Knowledge or perception of a situation.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;When you’re self-aware and aware of your surroundings, you ask more questions and make more connections. You’ll understand the reasons you make technical decisions and be able to articulate them when asked. Awareness helps you identify why some code is particularly awkward to use, or when a pattern is emerging that can be standardized.&lt;/p&gt;
+
+&lt;p&gt;But, awareness isn’t enough on its own, it needs to be coupled with action.&lt;/p&gt;
+
+&lt;h2 id=&quot;resoluteness&quot;&gt;Resoluteness&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Admirably purposeful, determined, and unwavering.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The best software engineers have a strong gut feeling about the right way something should be done, but they’re also flexible, open to other opinions, and know when to seek out additional information.&lt;/p&gt;
+
+&lt;p&gt;Resoluteness manifests as the ability to make good technical decisions amid uncertainty, to doggedly investigate complex bugs, and to effectively push a project to completeness.&lt;/p&gt;
+
+&lt;h2 id=&quot;empathy&quot;&gt;Empathy&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The ability to understand and share the feelings of another.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s unlikely any engineer works entirely in isolation. Understanding people’s feelings and perspectives is an important part of working in a team.&lt;/p&gt;
+
+&lt;p&gt;But empathy can go beyond this: it can help you write better code. If you can understand how other people will use your code, and what it will be like for them to read it the first time, you’ll design better interfaces and write simpler, more logically structured code.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Yes… good engineers C.A.R.E.™&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ducks&lt;/em&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/software-engineer-traits&quot;&gt;Software Engineer Traits&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Jekyll + Prose.io]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/webdevelopment/jekyll-prose-io"/>
+  <id>http://hmfaysal.github.io/webdevelopment/jekyll-prose-io</id>
+  <published>2014-05-15T00:00:00+00:00</published>
+  <updated>2014-05-15T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#jekyll" term="jekyll" />
+  <content type="html">
+  
+    &lt;p&gt;Nothing beats Medium when it comes to blogging. Its overly simplistic, minimal and its true WYSIWYG editor put itself ahead of the races. But there comes a time, when you might need a self hosted blog. Maybe its for a project, or as it was for me, I needed something static to be hosted in my University’s servers.&lt;/p&gt;
+
+&lt;p&gt;It was 2008, I was a freshman at college and I was provided with a University email id and a small web-hosting space. I did not pay as much heed to the latter one until I was required to put up some notes on it by my EECS-I course instructor. I was involved in a robotics project, and my CI wanted me to post regular updates on my provided web-space. During the first four weeks of classes, we were given a short course on Git Version Control, but for blogging, I did not know where to start. I Googled, and I found WordPress, it seemed perfect for the job at hand, I downloaded the latest version from the repository and unzipped the contents on my web-space, when I went on to install it, I found that student web-spaces did not support dynamic pages and builds. What a bummer.&lt;/p&gt;
+
+&lt;p&gt;So I made a simple HTML document in notepad, and painstakingly put the contents I was supposed to put on, without any CSS styling. It was ugly, but it got the job done. Updating the page with newer contents was pain, as I would have to edit it manually and upload and replace the older file. I kept looking for a better solution, but I did not ask anyone for help, then suddenly I came upon a Python based static site generator. It was my first semester, I was learning Python, so obviously I got enthusiastic about using the tool. I made a blog in my university domain with it and t helped me gain a little bit of street credit. But I was never really happy with the workflow with it.&lt;/p&gt;
+
+&lt;p&gt;Then I found Jekyll, a true gem written in Ruby. I never took Ruby lessons, yet the code base which contained 16K LoC was easier to understand, and the usage was much more easier. I had to install Ruby, the corresponding Ruby DevKit and Jekyll locally on my machine to get my site up and running. Also, I could only publish from my machine only as that was the only machine had all the tools installed to compile a Jekyll site.&lt;/p&gt;
+
+&lt;p&gt;This mode of workflow meant I was never truly mobile when it came to blogging. I always have&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/webdevelopment/jekyll-prose-io&quot;&gt;Jekyll + Prose.io&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[How many things are there?]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/how-many-things-are-there"/>
+  <id>http://hmfaysal.github.io/how-many-things-are-there</id>
+  <published>2014-05-15T00:00:00+00:00</published>
+  <updated>2014-05-15T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;Awesome post by VSauce&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/how-many-things-are-there&quot;&gt;How many things are there?&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[First Commit]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/personal/first-commit"/>
+  <id>http://hmfaysal.github.io/personal/first-commit</id>
+  <published>2014-05-15T00:00:00+00:00</published>
+  <updated>2014-05-15T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#blogging" term="blogging" /><category scheme="http://hmfaysal.github.io/tags/#jekyll" term="jekyll" />
+  <content type="html">
+  
+    &lt;blockquote&gt;
+  &lt;p&gt;&quot;The beginning is the most important part of the work.&quot;
+&lt;small&gt;&lt;cite title=&quot;Plato&quot;&gt;Plato&lt;/cite&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I have been away from the blogging scene for quite a while now, suddenly today it dawned upon me that I need to start writing/posting again. My writing is a little bit rusty now, and I need to brush on that. Anyways, the moment I thought about blogging, Wordpress flashed in my mind. Well, I used Wordpress &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; in the past and it worked well for a while, then I had to face issues like high-traffic and high CPU load and unexpected spikes in my server. Well, those weren’t too much trouble, I would avoid fixing those bugs if I was busy, and sometimes I would leave the system untouched for 2 days straight and let the server admins frown and try to mitigate the outage (I had a pretty straight forward deal with my hosting provider, that no matter what, they can’t shut down my website). The PHP runtime errors weren’t a big deal, the hundreds of thousands of SQL database queries weren’t a trouble, sometimes the site would run a tad bit slower than average, but it was OK overall for me. A sample of the emails I would receive from my hosting provider is given below:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tickets@hostgator.com
+10/11/10
+
+to hmfaysal 
+Hello, 
+
+
+I apologize, but I was forced to suspend the script &quot;/home/hmfaysal/public_html/hmfaysal.com/index.php&quot; as it was causing a high load on the server, and due to it affecting all of the other accounts on the system, I was forced to take immediate action for the health of the server.g 
+
+I did notice that this was a Wordpress installation, and would recommend that you enable caching for it.
+
+Please note that if you already have caching enabled, you will need to take more action such as looking into any high use modules or plugins, and seeing if there are any updates, or possibly any that you can disable to reduce the load that your site causes. 
+
+If you reply back to this with your IP address (http://www.hostgator.com/ip.shtml) we will be more than happy to go ahead enable HTTP access for you, so that you can safely work on the script without it causing further issues. Please let me know how you would like to proceed.  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But the game was changed when my site got hacked. Wordpress is notorious in getting hacked. The PHP code libraries are huge, and while Automattic tries to keep it relatively clean and bug free, bugs do persist among the thousands of lines of codes and every once in a while a bug gets discovered by the code breakers. If the bug can be exploited in some way to gain access of the site, the code breakers tend to do some serious damage. While I wasn’t been exclusively targeted by such individuals, I was part of a victimized group who used the same version of Wordpress, and all of our sites got defaced by some mass defacing software. Although it didn’t do serious damage, as I have daily off-site backup, I became dubious about the Wordpress platform.&lt;/p&gt;
+
+&lt;p&gt;So, this time around, while I was still brainstorming for ideas and theme designs and what not, I decided to go back to Jekyll, or you may say, rather old school. Why not use plain static HTML files with some CSS styling and JS animations? Static sites are impossible to hack, as there are no codes needed to be run on the server. The only way a static site can be compromised if the code breakers have access to your FTP account. I have used Jekyll in the past during my college years. I was working as a Teaching Assistant in the Mathematics Dept, and I was supposed to post weekly course materials on the course website. The trouble was my Alma maters IT dept didn’t allow dynamic sites to run on the nodes, and I wasn’t going download the HTML files, edit them with Sublime text, and push them back onto the server every week. So I used Jekyll and GIT Version Control to do that for me. And it was so efficient that I would post materials daily instead of weekly. It was like love on first use. But Wordpress had lots of theme choices and for my personal site I decided to use Wordpress anyways disregarding the simpleness and speed static sites provided. After the takeover of my Wordpress powered blog happened, I turned to self written PHP sites and static sites completely. I have built a social network based on PHP for my peer group which is highly secure but when it comes down to speed it lags behind. So I built this site using Jekyll, a blog aware static site generator. I hope this site will perform as envisioned.&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;This domain previously hosted a Wordpress blog. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/personal/first-commit&quot;&gt;First Commit&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on May 15, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Installing Jekyll on Windows]]></title>
+  <link rel="alternate" type="text/html" href="http://hmfaysal.github.io/webdevelopment/installing-jekyll-on-windows"/>
+  <id>http://hmfaysal.github.io/webdevelopment/installing-jekyll-on-windows</id>
+  <published>2013-12-31T00:00:00+00:00</published>
+  <updated>2013-12-31T00:00:00+00:00</updated>
+  <author>
+    <name>Hossain Mohd Faysal</name>
+    <uri>http://hmfaysal.github.io</uri>
+    <email>hmfaysal@alum.mit.edu</email>
+  </author>
+  <category scheme="http://hmfaysal.github.io/tags/#Jekyll" term="Jekyll" /><category scheme="http://hmfaysal.github.io/tags/#Installation" term="Installation" />
+  <content type="html">
+  
+    &lt;p&gt;In this tutorial, I will show you how you can install and get started with &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; on &lt;a href=&quot;http://windows.microsoft.com/en-us/windows/home&quot;&gt;Windows platform&lt;/a&gt; in 10 easy steps. While Jekyll itself is very easy to get started with, it has several dependencies which needed to be installed in order for it to work properly. The process of installing these dependencies can be a little frustrating on any system, and it can be a tad bit more frustrating if you own a Windows PC. In this article, I will provide step-by-step details about installing Jekyll on windows and all its dependencies properly and will try to elaborate on the errors that one might encounter during the steps.&lt;/p&gt;
+
+&lt;section&gt;
+  &lt;header&gt;
+    &lt;h2&gt;Contents&lt;/h2&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-1-installing-ruby&quot;&gt;Step 1: Installing Ruby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-2-installing-jekyll-gem&quot;&gt;Step 2: Installing Jekyll Gem&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-3-enabling-syntax-highlighting&quot;&gt;Step 3: Enabling Syntax Highlighting&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#step-4-re-installing-pygmentsrb&quot;&gt;Step 4: Re-installing Pygments.rb&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-5-initializing-a-new-blog&quot;&gt;Step 5: Initializing a new blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-6-knowing-the-configyml-file&quot;&gt;Step 6: Knowing the _config.yml file&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-7-knowing-the-jekyll-folder-structure&quot;&gt;Step 7: Knowing the Jekyll folder structure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-8-adding-new-postsmodifying-posts&quot;&gt;Step 8: Adding new posts/Modifying posts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-9-compiling-the-site-for-deployment&quot;&gt;Step 9: Compiling the site for deployment&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#step-10-deployment&quot;&gt;Step 10: Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+
+&lt;h2 id=&quot;step-1-installing-ruby&quot;&gt;Step 1: Installing Ruby&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https://rubygems.org/gems/jekyll&quot;&gt;Jekyll is a Ruby-Gem.&lt;/a&gt;&lt;/em&gt; So obviously you’d need Ruby to be installed in your Windows PC, you’d also need the Ruby DevKit in your system too. There is an easy way to install Ruby on Windows, its called the RubyInstaller. So head over to &lt;strong&gt;&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;RubyInstaller for Windows&lt;/a&gt;&lt;/strong&gt; webpage and grab of copy of the latest Ruby. Select x86 or x64 based on your PC configuration. Then scroll down and to find the &lt;strong&gt;&lt;a href=&quot;http://rubyinstaller.org/downloads/&quot;&gt;corresponding DevKit&lt;/a&gt;&lt;/strong&gt; for your Ruby and download that too. Double click on the RubyInstaller to begin installing Ruby. There are a few caveats here. The directory name (&lt;em&gt;string) should not have any spaces(&lt;/em&gt;whitespaces), though numbers, dash and underscores are acceptable. Also check Add Ruby to Path to make your life easier. Finish installing Ruby, then click on the DevKit extractor. Extract it to some convenient location like &lt;code&gt;~ C:\&lt;/code&gt;. Finally open up Command Prompt by pressing (&lt;i class=&quot;fa fa-windows&quot;&gt;&lt;/i&gt; + R), type cmd, hit &lt;strong&gt;&lt;em&gt;ENTER&lt;/em&gt;&lt;/strong&gt; and change your directory to the extracted DevKit folder. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://hmfaysal.github.io/images/startplusr.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Typing the following commands will initialize the Ruby Installation:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby dk.rb init
+~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby dk.rb install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;step-2-installing-jekyll-gem&quot;&gt;Step 2: Installing Jekyll Gem&lt;/h2&gt;
+
+&lt;p&gt;Now that Ruby is installed, you can proceed to install Jekyll Gem. To do so, run the following Command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install jekyll&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Wait for a while for the latest version of Jekyll to get downloaded and installed. Your command window might not show anything for upto half a minute as the Ruby-Gem server might be busy. Have a little patience, soon the download will start and Jekyll will download itself and all of the required gems in your system.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-3-enabling-syntax-highlighting&quot;&gt;Step 3: Enabling Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;If you’re an engineer or a mathematician, occasionally you’d want to post code snippets in your blog. Jekyll utilizes a Gem called Pygments.rb to highlight your code snippets, which does not require any Javascript or client-side computation to show the Syntax Highlighting. Pygments.rb is dependent on Python. If you don’t have Python installed in your system, go the &lt;a href=&quot;https://www.python.org/download/&quot;&gt;Python Download page&lt;/a&gt;, and download Python 2.7.x. Install it and make sure it has been added to the PATH. If you opt for not using syntax highlighting or use client-side implementation, make sure to turn pygments off by explicitly calling it off in the _config.yml file.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;pygments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;step-4-re-installing-pygmentsrb&quot;&gt;Step 4: Re-installing Pygments.rb&lt;/h3&gt;
+
+&lt;p&gt;The latest version of Pygments.rb(0.5.4) seems to have trouble when compiling with Jekyll. Now the latest version of Pygments.rb will be automatically downloaded in &lt;a href=&quot;#step-2-installing-jekyll-gem&quot;&gt;Step 2&lt;/a&gt; along with Jekyll. To revert back to the last known stable version of Pygments.rb(0.5.0) simply run the following commands:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem uninstall pygments.rb
+~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install pygments.rb --version&lt;span class=&quot;o&quot;&gt;(=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;0.5.0&amp;quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;step-5-initializing-a-new-blog&quot;&gt;Step 5: Initializing a new blog&lt;/h2&gt;
+
+&lt;p&gt;By this step, you’ll have all the necessary gems to initialize a new blog. In my last post, I posted the codes to start a new blog. I will post them here again, simply type in the following commands:&lt;/p&gt;
+
+&lt;p&gt;Open up a browser window, navigate to http://localhost:4000 to see your site. In the Command Prompt, press CTRL + C to stop the server.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new my-awesome-site
+~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;my-awesome-site
+~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;step-6-knowing-the-configyml-file&quot;&gt;Step 6: Knowing the _config.yml file&lt;/h2&gt;
+
+&lt;p&gt;The _config.yml file in the my-awesome-site folder contains all the essential information about your new blog. When you run any Jekyll commands, the first file it reads is the _config.yml file, then proceeds to compile the site according to the instructions provided in the _config.yml file. A very basic _config.yml file would contain the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jekyll&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Site&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;redcarpet&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;pygments&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kp&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can add many more statements to make you Jekyll site more versatile and user friendly. I will discuss them in another post.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-7-knowing-the-jekyll-folder-structure&quot;&gt;Step 7: Knowing the Jekyll folder structure&lt;/h2&gt;
+
+&lt;p&gt;Jekyll utilizes a certain folder structure to store and compile the site. When you first initialize a new site, your new site structure will look something like the following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;my-awesome-site/
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   .gitignore
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   index.html
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;   _config.yml
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
++---css
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       main.css
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       syntax.css
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
++---_layouts
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       default.html
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;       post.html
+&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;
++---_posts
+        2013-12-21-welcome-to-jekyll.markdown&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The folder names that proceed with an underscore(_) tells Jekyll not to directly include those folders in the final compilation. Like the css folder that does not start with an underscore will be directly copied in the final compilation. This method helps to distinguish between the development environment and the production environment.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-8-adding-new-postsmodifying-posts&quot;&gt;Step 8: Adding new posts/Modifying posts&lt;/h2&gt;
+
+&lt;p&gt;This is most probably the most essential part that gives Jekyll its name. Jekyll is a blog aware static site generator, and without the blog part it would be useless. To add a new post, simply navigate to the _posts/ directory and create a new file with this structure YYYY-MM-DD-Title-Of-Your-New-Post.markdown. You can have the file in different extensions as per your choice, like *.md, *.textile etc. If you fail to name the file in this structure, Jekyll will ignore that post in the final compilation. Open up your newly created file, and fill out the Front matter YAML. This enables Jekyll to properly recognize the post and get essential information regarding the post, like its categories and tags. A simple post file should have the following Front matter YAML embedded on top:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&amp;quot;Title of the Post&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   &lt;span class=&quot;mi&quot;&gt;2013&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;12&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;15&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;47&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;09&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#YYYY-MM-DD HH:MM:SS&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;categories&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;articles&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Content&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;goes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The lines in between the triple dashes (—) provide the essential information about that post to the markdown/textile parser during Jekyll compilation.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-9-compiling-the-site-for-deployment&quot;&gt;Step 9: Compiling the site for deployment&lt;/h2&gt;
+
+&lt;p&gt;After you’ve added one or few posts and you’re feeling ready to offload the site to a deployment environment, run the ~ $ jekyll serve command to see you site live at http://localhost:4000. Additionally you can run ~ $ jekyll serve -w to view the site live while you add/edit something and see the changes reflected instantly on the local server. When you’re quite happy with the results, press CTRL + C to stop the local server and run the following command:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;~ &lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll build&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;This will generate the site in the _site/ directory inside your Jekyll site folder, which is ready for deployment.&lt;/p&gt;
+
+&lt;h2 id=&quot;step-10-deployment&quot;&gt;Step 10: Deployment&lt;/h2&gt;
+
+&lt;p&gt;Deployment is painless with Jekyll. At this step, you can simply copy over the contents of the _site/ folder to your web-hosting over FTP. There are other novel approaches of deployment using Git and SSH, but that’s a matter of discussion for another day. Jekyll is a highly flexible platform, and it lets you do things in your way, a feature no other platforms can even offer.&lt;/p&gt;
+
+&lt;p&gt;If you’ve enjoyed this post, feel free to like it or share it on facebook, or give me a shoutout in twitter @hmfaysal&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http://hmfaysal.github.io/webdevelopment/installing-jekyll-on-windows&quot;&gt;Installing Jekyll on Windows&lt;/a&gt; was originally published by Hossain Mohd Faysal at &lt;a href=&quot;http://hmfaysal.github.io&quot;&gt;YangYa's Blog&lt;/a&gt; on December 31, 2013.&lt;/p&gt;</content>
+</entry>
+
+</feed>

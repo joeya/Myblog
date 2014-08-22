@@ -1,0 +1,83 @@
+callback([
+
+  {
+    "text": "Installing Jekyll on Windows",
+    "href": "http://hmfaysal.github.io/webdevelopment/installing-jekyll-on-windows"
+  } ,
+
+  {
+    "text": "First Commit",
+    "href": "http://hmfaysal.github.io/personal/first-commit"
+  } ,
+
+  {
+    "text": "How many things are there?",
+    "href": "http://hmfaysal.github.io/how-many-things-are-there"
+  } ,
+
+  {
+    "text": "Jekyll + Prose.io",
+    "href": "http://hmfaysal.github.io/webdevelopment/jekyll-prose-io"
+  } ,
+
+  {
+    "text": "Software Engineer Traits",
+    "href": "http://hmfaysal.github.io/personal/software-engineer-traits"
+  } ,
+
+  {
+    "text": "Two Different Mindsets",
+    "href": "http://hmfaysal.github.io/personal/two-different-mindsets"
+  } ,
+
+  {
+    "text": "Jekyll Estimated Reading Time: Liquid, no plugins",
+    "href": "http://hmfaysal.github.io/webdevelopment/jekyll-estimated-reading-time-liquid-no-plugins"
+  } ,
+
+  {
+    "text": "Cross Modal Synesthetic Abstraction:",
+    "href": "http://hmfaysal.github.io/interesting/cross-modal-synesthetic-abstraction"
+  } ,
+
+  {
+    "text": "Energy Consumption and Other debates in Electrical Engineering",
+    "href": "http://hmfaysal.github.io/personal/energy-consumption-and-other-debates-in-electrical-engineering"
+  } ,
+
+  {
+    "text": "The Availability Heuristic ",
+    "href": "http://hmfaysal.github.io/interesting/the-availability-heuristic"
+  } ,
+
+  {
+    "text": "What if the Moon was a Disco Ball?",
+    "href": "http://hmfaysal.github.io/interesting/what-if-the-moon-was-a-disco-ball"
+  } ,
+
+  {
+    "text": "THE DECOY EFFECT",
+    "href": "http://hmfaysal.github.io/interesting/the-decoy-effect"
+  } ,
+
+  {
+    "text": "What does a lead engineer do?",
+    "href": "http://hmfaysal.github.io/personal/what-does-a-lead-engineer-do"
+  } ,
+
+  {
+    "text": "Things you most probably do not know",
+    "href": "http://hmfaysal.github.io/interesting/things-you-most-probably-do-not-know"
+  } ,
+
+  {
+    "text": "Fitness Tracker",
+    "href": "http://hmfaysal.github.io/personal/fitness-tracker"
+  } ,
+
+  {
+    "text": "Death Stick",
+    "href": "http://hmfaysal.github.io/personal/death-stick"
+  } 
+
+])
